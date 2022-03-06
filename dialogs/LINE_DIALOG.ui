@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Line_Dialog</class>
+ <widget class="QDialog" name="Line_Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>289</width>
+    <height>72</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Line options</string>
+  </property>
+  <widget class="QPushButton" name="_2">
+   <property name="geometry">
+    <rect>
+     <x>194</x>
+     <y>40</y>
+     <width>75</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="_1">
+   <property name="geometry">
+    <rect>
+     <x>112</x>
+     <y>40</y>
+     <width>75</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>139</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Auto snap angle</string>
+   </property>
+  </widget>
+  <widget class="RCDoubleSpinBox" name="_100">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>9</y>
+     <width>100</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="accelerated">
+    <bool>true</bool>
+   </property>
+   <property name="minimum">
+    <double>-360.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>360.000000000000000</double>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RCDoubleSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>../RealCADQt/source/rcdoublespinbox.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,4282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Chamfer_Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GeneratePoints_Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\LineAngle_Dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncanim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncarcb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncarrang.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncattrib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncbmapb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncbmask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nccira.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nccirb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nccirc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nccird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncclip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nccomm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nccurvea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nccurveb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdimena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdimenb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdimenc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdimend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdimene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdimenf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdxfin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncdxfout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncellipa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncellipb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncfiga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncfigb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncgrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncgroupa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncgroupb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nchidea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nchideb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nchpgout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncigsout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncinters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nclight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nclinea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nclineb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nclist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncmask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncmeas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncmeta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncnc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncpatcha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncpatchb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncplanea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncplaneb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncpoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncpointb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncraya.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncrayb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncreva.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncrevb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncrulea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncruleb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncshadea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncshadeb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nctexta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nctextb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nctextc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nctrans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Nctrim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncval.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncviewa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncviewb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncviewc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Ncwork.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCCentralWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCFigureBrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCGraphicsItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCGraphicsScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCGraphicsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCOpenGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCPlatform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RCtoolbutton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UnitTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\_tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\aboutrealcad_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\attributedelete_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\attributeedit_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\attributelist_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\attributenew_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bitmap_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bitmaptransparency_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bumpmap_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\calculator_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\circleverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\composeddrawing_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\converttocurve_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\copyalong_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\copyarray_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\copybitmap_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\copycomposeddrawing_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\createview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\createworkplane_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\createzone_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\curve_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\curveverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\definecolour_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\definepatternstyle_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\definestyle_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\deletedrawing_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\deleteview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\deleteworkplane_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\deletezone_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimension_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimensioncterminator_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimensionprefix0_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimensionprefix_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimensionsuffix0_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimensionterminator_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimensiontext_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dimensionvalue_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\drawingverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dwgimportoptions_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dxfin_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\dxfout_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ellipseinsert_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ellipseverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\explode_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\figure_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\figuretext_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\figureverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\findandreplace_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\findinfiles_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\grid_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\group_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\groupverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\information_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\insertfiguretext_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\keyboardshortcuts_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\layergroup_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\layerspinbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\leader_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\leaderverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\license_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\licenseagreement_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\licensekey_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lightverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\line_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lineparallel_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lineverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\lttextinsert_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\maskchange_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\material_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\measure_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\measureangle_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\measurearea_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\measurelengtharea_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mirror_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\missing_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\modifyparametricfigure_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\move_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncappl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncarcha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncarchb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncarchc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncbasica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncbasicb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncbeam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncbmapa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\nccaptra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\nccustom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncdimeng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncfilem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\nchpglin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncigesin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\nclinec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncmeduin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncpanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncplanec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncsim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncwina.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncwinb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ncwinc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\nczone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\networksoftwarelicense_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\offset_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\offsetd_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\oneviewchange_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patch_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patchcorners_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patchmesh_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patchmove_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patchtriangulate_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\patchverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\planeverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\plotscale_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\pointverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\polygon_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\positionalong_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\positionoffset_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\printpreview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\project_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ptin_poly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\qtdefs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\raytrace_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rccombolist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcdoublespinbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcglprinterwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcgraphicspreview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcintegerspinbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rconecoordinateentry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcopenglwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcplanesamplelabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcprintpreview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rcsplashscreen_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rctoolbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rectangle_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\reference_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\renamedrawing_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resetview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\resetworkplane_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rotate_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ruledsurface_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ruledsurfaceverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scale_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selectapplication_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selectdrawing_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selectdrawingview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selecthatchpattern_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selectunloadapplication_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selectview_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\selectworkplane_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\shade_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\smtp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\snapmask_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\standard_Dbl_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\standard_Int_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\standardstring_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\stretch_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\styleset_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sunposition_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\surfaceofrev_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\surfaceofrevinsert_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\surfaceofrevverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\surfaceproperty_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\systemoptions_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\systempath_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\text_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textinsert_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textinsertcounter_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\texture_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textverify_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\textverifychange_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\toolbars_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\trace_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\translate_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\trim_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\unlicense_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\v7license_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\viewclip_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\weight_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\weightspinbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\zone_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\zoomzone_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="source\Chamfer_Dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\GeneratePoints_Dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\GraphicsRBItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\LineAngle_Dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\MacNativeCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\NCAPI.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Nccom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Ncdxf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Ncinters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\RCCentralwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\RCDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\RCFigureBrowser.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\RCGraphicsItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\RCGraphicsScene.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\RCGraphicsView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\RCImageResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RCOpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RCPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RCStringResources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\RCStyleSheets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\RCView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\RCtoolbutton.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\Styleset_Dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\TextVerifyChange_Dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\UnitTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\_tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\aboutrealcad_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\attributedelete_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\attributeedit_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\attributelist_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\attributenew_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\bitmap_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\bitmaptransparency_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\bumpmap_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\calculator_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\circleverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\composeddrawing_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\converttocurve_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\copyalong_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\copyarray_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\copybitmap_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\copycomposeddrawing_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\createview_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\createworkplane_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\createzone_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\curve_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\curveverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\definecolour_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\definepatternstyle_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\definestyle_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\deletedrawing_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\deleteview_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\deleteworkplane_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\deletezone_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimension_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimensioncterminator_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimensionprefix0_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimensionprefix_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimensionsuffix0_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimensionterminator_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimensiontext_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dimensionvalue_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\drawingverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dwgimportoptions_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dxfin_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\dxfout_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\ellipseinsert_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\ellipseverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\explode_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\figure_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\figuretext_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\figureverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\findandreplace_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\findinfiles_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\grid_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\group_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\groupverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\ijl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\information_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\insertfiguretext_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\keyboardshortcuts_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\layergroup_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\layerspinbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\leader_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\leaderverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\license_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\licenseagreement_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\licensekey_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\lightverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\line_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\lineparallel_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\lineverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\lttextinsert_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\maskchange_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\material_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\measure_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\measureangle_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\measurearea_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\measurelengtharea_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\mirror_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\missing_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\modifyparametricfigure_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\move_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\ncbmask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncgrid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\nchide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\nclist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncmatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncshade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncsurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ncview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\ncwin.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\ncwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\networksoftwarelicense_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\offset_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\offsetd_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\oneviewchange_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\patch_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\patchcorners_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\patchmesh_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\patchmove_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\patchtriangulate_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\patchverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\planeverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\plotscale_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\pointverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\polygon_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\positionalong_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\positionoffset_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\printpreview_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\project_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\ptin_poly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\qtdefs.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\raytrace_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rccombolist.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcdoublespinbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcglprinterwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcgraphicspreview.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcintegerspinbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rconecoordinateentry.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcopenglwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcplanesamplelabel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcprintpreview_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rcsplashscreen_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rctoolbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\rectangle_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\reference_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\renamedrawing_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\resetview_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\resetworkplane_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\rotate_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\ruledsurface_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\ruledsurfaceverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\scale_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\selectapplication_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\selectdrawing_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\selectdrawingview_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\selecthatchpattern_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\selectunloadapplication_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\selectview_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\selectworkplane_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\shade_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\smtp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\snapmask_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\standard_Dbl_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\standard_int_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\standardstring_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\stretch_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\sunposition_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\surfaceofrev_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\surfaceofrevinsert_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\surfaceofrevverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\surfaceproperty_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\systemoptions_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\systempath_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\text_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\textinsert_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\textinsertcounter_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\texture_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\textverify_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\toolbars_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\trace_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\translate_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\trim_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="source\ui_mainwindow.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="source\unlicense_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\v7license_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\viewclip_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\weight_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\weightspinbox.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\zone_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="source\zoomzone_dialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="dialogs\ATTRIBUTEDELETE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ATTRIBUTEEDIT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ATTRIBUTELIST_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ATTRIBUTENEW_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\BITMAP_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\BITMAP_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\BUMPMAP_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CALCULATOR_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CHAMFER_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CIRCLEVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\COMPOSEDDRAWING_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CONVERTTOCURVE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\COPYALONG_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\COPYARRAY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\COPYBITMAP_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\COPYCOMPOSEDDRAWING_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CREATEVIEW_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CREATEWORKPLANE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CREATEZONE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CURVEVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\CURVE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DEFINECOLOUR_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DEFINEPATTERNSTYLE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DEFINESTYLE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DELETEDRAWING_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DELETEVIEW_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DELETEWORKPLANE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DELETEZONE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONCTERMINATOR_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONPREFIX0_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONPREFIX_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONSUFFIX0_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONTERMINATOR_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONTEXT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVALUE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFYPREFIX_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFYTERMINATOR_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFYVALUE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSION_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSION_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DRAWINGVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DXFIN_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\DXFOUT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ELLIPSEINSERT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ELLIPSEVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\EXPLODE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FIGURETEXT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FIGUREVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FIGURE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FIGURE_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FIGURE_DIALOG_v8x.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FINDANDREPLACE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FINDANDREPLACE_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\FINDINFILES_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\GENERATEPOINTS_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\GRID_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\GROUPVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\GROUP_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\INFORMATION_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\INSERTFIGURETEXT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\KEYBOARDSHORTCUTS_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LAYERGROUP_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LAYER_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LEADERVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LEADER_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LICENSEAGREEMENT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LICENSEKEY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LICENSE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LIGHTVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LINEANGLE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LINEPARALLEL_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LINEVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LINE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\LTTEXTINSERT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MASKCHANGE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MATERIAL_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MEASUREANGLE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MEASUREAREA_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MEASURELENGTHAREA_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MEASURE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MIRROR_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MISSING_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MODIFYPARAMETRICFIGURE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\MOVE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\NETWORKSOFTWARELICENSE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\OFFSETD_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\OFFSET_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ONEVIEWCHANGE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PATCHCORNERS_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PATCHMESH_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PATCHMOVE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PATCHTRIANGULATE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PATCHVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PATCH_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PLANEVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PLOTSCALE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\POINTVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\POLYGON_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\POSITIONALONG_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\POSITIONOFFSET_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PRINTPREVIEW_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PRINTPREVIEW_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\PROJECT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RAYTRACE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RCFigureBrowser.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RECTANGLE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\REFERENCE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RENAMEDRAWING_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RESETVIEW_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RESETWORKPLANE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ROTATE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RULEDSURFACEVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\RULEDSURFACE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SCALE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTAPPLICATION_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTDRAWINGVIEW_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTDRAWINGVIEW_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTDRAWING_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTHATCHPATTERN_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTUNLOADAPPLICATION_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTVIEW_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SELECTWORKPLANE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SHADE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SNAPMASK_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\STANDARDSTRING_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\STANDARD_DBL_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\STANDARD_INT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\STRETCH_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\STYLESET_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SUNPOSITION_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEOFREVINSERT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEOFREVVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEOFREV_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEPROPERTY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SYSTEMOPTIONS_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\SYSTEMOPTIONS_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TEXTINSERTCOUNTER_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TEXTINSERT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TEXTURE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TEXTVERIFYCHANGE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TEXTVERIFY_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TEXTVERIFY_DIALOG_v7.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TEXT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TOOLBARS_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TRACE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TRANSLATE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\TRIM_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\UNLICENSE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\VIEWCLIP_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\WEIGHT_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ZONE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\ZOOMZONE_DIALOG.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\aboutrealcad_dialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\bitmaptransparency_dialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\dwgimportoptions_dialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\rccombolist.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\rconecoordinateentry.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\rcsplashscreen_dialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\systempath_dialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dialogs\v7license_dialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ARRANGE-back-one.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ARRANGE-forward-one.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ARRANGE-to-back.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ARRANGE-to-front.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENT-attribute.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENT-comment.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENT-hyperlink.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENT-image.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENT-scaled-image.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENT-sound.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENT-table.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ATTACHMENTS.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\BandW.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-area.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-bitmap.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-camera-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-object-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-patch-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-raytrace-render.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-record-animation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-reference-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-replay-animation-file.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CAPTURE-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-arc-by-center-and-edge.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-arc-by-three-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-circle-by-center-and-edge.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-circle-by-three-edge-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-circle-by-two-edge-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-ellipse-by-three-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-fixed-value-arc.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-fixed-value-circle.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-fixed-value-ellipse.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLE-radius-fillet.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CIRCLES-ARCS-ELLIPSES.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENT-annotation-text.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENT-component-by-dynamic-scale.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENT-component-by-flip.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENT-component-by-origin.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENT-component-by-rotation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENT-component-save-as.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENT-edit-annotation-text.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COMPONENTS.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COORDINATE-locked.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\COORDINATE-unlocked.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CPAL.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-add-curve-point.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-change-curve-degree.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-convert-to-curves.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-curve-by-control-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-curve-thru-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-delete-curve-point.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-freehand-curve.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVE-move-curve-point.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CURVES.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\CheckBoxTick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-angle-dimension.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-area-dimension.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-centerline.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-diameter-dimension.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-diameter-with-leader.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-distance-and-bearing.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-move-dimension-text.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-parallel-dimension.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-radius-dimension.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-radius-with-leader.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-x-axis-dimension.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSION-y-axis-dimension.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DIMENSIONS.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMIC-VIEWS.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-fly.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-look-around.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-orbit-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-position-viewer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-rotate-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-section-plane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-view-adjust-menu.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-view-style.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\DYNAMICVIEW-walk-about.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="styles\mac\Dark.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="styles\win\2x\Dark.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="styles\win\Dark.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="DefaultSplashPage.html">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-delete-segment.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-divide-by-entity.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-divide-by-length.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-divide-by-number.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-explode.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-join-glue.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-magic-eraser.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-trim-extend.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-trim-length.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\EDIT-trim-to-corner.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-email.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-info.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-new-from-template.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-new.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-open.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-print.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-save-as.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-save.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-file-tools.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-find-in-files.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-preference-settings.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-preview-region.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\FILE-preview-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\GROUP-add-to-group.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\GROUP-create-group.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\GROUP-remove-from-group.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\GROUP-ungroup.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\HLS.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-add-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-align-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-change-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-copy-layout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-delete-layout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-delete-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-move-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-new-layout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-pan-in-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-rename-layout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-select-layout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LAYOUT-zoom-fit-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-angled-line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-chamfer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-freehand-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-insert-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-parallel-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-rectangle.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-regular-polygon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-x-axis-line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LINES-y-axis-line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-along.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-apparent-intersection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-end.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-intersection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-offset-point.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-on.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-origin-midpoint.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-position.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-reference-point.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LOCATE-locate-xyz-reference.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="styles\mac\Light.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="styles\win\2x\Light.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="styles\win\Light.qss">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\LinkIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\NoPreview.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-add-vertex.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-delete-vertex.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-move-vertex.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-plane-by-boundary.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-plane-by-interior.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-plane-by-vertex-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-remove-hole.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PLANE-whiteout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\POINTS-generate-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\POINTS-single-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-fit-page-width.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-fit-page.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-landscape.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-output-to-pdf.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-paper-setup.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-portrait.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-print-black-and-white.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-print-colour.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-print-grey-scale.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-printer-setup.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-zoom-page-in.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PRINT-zoom-page-out.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-clone-properties.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-colours.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-entities.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-layers.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-properties.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-style-sets.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-styles.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\PROPERTIES-weights.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-chain-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-delete.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-favourites.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-grid-2.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-grid.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-measure.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-poly-fence-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-previous-selection-set.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-redo.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-regenerate-windows.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-scheme.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-snap-and-drag.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\QUICK-undo.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\RENDERING-lights.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\RENDERING-materials.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\RENDERING-render.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\RENDERING-sunlight.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="RealCAD.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\STANDARDVIEWS-std-back.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-std-front.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-std-iso.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-std-left.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-std-parallel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-std-perspective.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-std-right.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-std-top.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\STANDARDVIEWS-top-perspective.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-cylinder.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-elbow.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-flat-pattern.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-move-patch-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-patch-by-corners.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-patch-by-mesh.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-patch-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-revolved-surface.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-ruled-surface.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACE-spiral.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\SURFACES-CURVED.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TEXT-find-and-replace.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TEXT-incremental-text.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TEXT-text-along.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TEXT-text-by-origin.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TEXT-text-by-rotation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TEXT-text-edit.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-align.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-array.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-centralise.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-copy-along.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-copy.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-mirror.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-move.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-offset-equal-distance.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-offset.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-project-extrude.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-rotate.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-scale.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TRANSFORM-stretch.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBack1-off.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBack1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBack2-off.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBack2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBack3-off.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBack3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBackL.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBackS.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\TranspBackS.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\UnLinkIcon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-dashed-hidden-line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-hidden-line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-shaded-dashed-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-shaded-surface.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-shaded-with-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-shadows.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-texture-shaded.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-textured-with-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-view-as-parallel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-view-as-perspective.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-virtual-reality-3d.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\VIEWSTYLE-wireframe.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-align-view-to-workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-cascade-views.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-delete-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-new-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-preview-view-state.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-print-scale.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-reset-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-rotate-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-select-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WINDOW-tile-views.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WORKPLANE-delete-workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WORKPLANE-move-workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WORKPLANE-new-workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WORKPLANE-orient-workplane-axis.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WORKPLANE-reset-workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WORKPLANE-select-workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\WORKPLANE-set-workplane-on-entity.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-new-zone.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-pan-scroll.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-zone-delete.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-zoom-fit.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-zoom-previous.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-zoom-scale.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-zoom-to-zone.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ZOOM-zoom-window.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\align-to-workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\animation-camera-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\animation-menu.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\animation-object-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\animation-patch-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\animation-record-animation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\animation-reference-path.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\animation-replay-animation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\architectural-perspective.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrange.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00062.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00063.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00098.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00099.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00100.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00101.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00102.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00115.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00145.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00146.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00147.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00148.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00149.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00150.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00159.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00166.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00167.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00168.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00169.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00172.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00173.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00174.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00175.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00176.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00177.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bmp00178.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\boxchecked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\boxunchecked.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_arc0_.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_circl.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_clone.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_colou.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_compo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_curve.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_delet.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_dimen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_displ.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_dynam.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_figur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_layer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_line8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_measu.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_paint.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_point.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_posit.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_redo_.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_rende.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_selec.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_style.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_surfa.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_text0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_trim0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_undo_.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_viewm.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_weigh.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_workp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ca_zoom9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\capture.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\centre.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\chain-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\change-to-parallel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\change-to-perspective.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\change-viewport.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\closedeye.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\closedock-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\closedock-down-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\closeview-12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\closeview-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\closeview-24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\closeview-down-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\complex-surfaces.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\copy-plane-boundary.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\copy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\copyx2.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\copyx3.bat">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_cur_@1x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_msk_@1x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crosshair_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00001_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00002_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00003_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_cur_@1x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_msk_@1x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00004_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00005_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00006_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00007_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cur00008_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\cut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\dashed-hidden-line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\detach-entities.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\detachentity.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\detachplane.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\dockdock-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\dockdock-down-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\dynamic-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\edit.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\empty_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\erase_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\favourites.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\file.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fit-page.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\fit-width.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\gl-shaded-with-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\gl-shaded.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\group.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\hidden-line.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico1002.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\ico20001.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\landscape.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\layout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\leftclick_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\leftclick_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\leftclick_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\leftclick_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lengthen-focal-distance.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\look-down.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\look-left.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\look-right.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\look-up.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\magic-eraser.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\make-parallel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\maximize-12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\maximize-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\maximize-24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\maximize-down-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\measure.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\new-component.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\new-from-template.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\new.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\new.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\open-import.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\open.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openeye.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\openeye_dissabled.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\paste.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plane-by-interior-icon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plane-by-segment-icon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\planes.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\portrait.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\position_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\print-BW.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\print-colour.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\print-grey-scale.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\print-preview-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\print-preview-window.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\print.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\printer-setup.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rendering.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\reselect-previous.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rightclick_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rightclick_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\save-as.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\save.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\save.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-chain-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-colour-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-commands.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-entity-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-fence-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-layer-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-style-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability-weight-selection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\selectability.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\set-all-points.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\set-clip-planes.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\set-eye-point.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\set-focal-distance.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\set-reference-point.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\settings-defaults.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\shade.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\shaded-with-dashed-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\shaded-with-lines.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\shaded.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\shorten-focal-distance.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\show-full-screen.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\sketchup-warehouse.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\snap-options.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solids.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\standard-views.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\step-backward.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\step-down.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\step-forward.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\step-left.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\step-right.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\step-up.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\text-label-callout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\text.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tileviews-12.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tileviews-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tileviews-24.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tileviews-down-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tools-back-one.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tools-forward-one.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tools-to-back.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tools-to-front.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tools.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\transform.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\view-continuous-orbit.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\view-continuous-rotation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\view-previous.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\view-regenerate-view.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\view-tile-views.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\view-window.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\viewstyle.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\visibility-colour-display.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\visibility-entity-display.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\visibility-layer-display.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\visibility-style-display.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\visibility.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\visilibity-weight-display.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\white-to-black-icon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\whiteout.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\wireframe.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\workplane.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_cur_@1x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_msk_@1x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_cur.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_cur@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_cur@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_cur_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_cur_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_msk.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_msk@2x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_msk@3x.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_msk_large.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\zoom_rev_msk_medium.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RealCAD.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\ncdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

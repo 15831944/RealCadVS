@@ -1,0 +1,449 @@
+/*
+this style is for HDPI screens scales >= 2
+*/
+
+.QWidget {
+   background-color: lightgray;
+}
+
+QMainWindow {
+   background-color: lightgrey;
+}
+
+QToolButton {
+   background-color: lightgrey;
+}
+
+QToolBar {
+   background-color: lightgrey;
+}
+
+QMenuBar
+{
+   background-color: lightgrey;
+   color: black
+}
+
+QMenuBar::item
+{
+   background-color: lightgrey;
+}
+
+QMenu
+{
+   background-color: lightgrey;
+}
+
+QMenu::item
+{
+   background-color: lightgrey;
+}
+
+QMenu::item:selected
+{
+   background-color: darkgray;
+   color: white;
+}
+
+QDialog
+{
+   background-color: lightgrey;
+}
+
+QDockWidget
+{
+   background-color: lightgrey;
+   titlebar-close-icon: url(:/images/closeview-16.png);
+   titlebar-normal-icon: url(:/images/maximize-16.png);
+}
+
+
+QDockWidget::title {
+   background-color: lightgrey;
+   color: white;
+}
+
+QDockWidget::close-button, QDockWidget::float-button {
+    background-color: lightgray;
+    padding: 0px;
+}
+
+
+/* set the font for all widgets */
+QMainWindow, QMenuBar, QMenu, QLabel, QCheckBox, QRadioButton, QComboBox, QLineEdit, QSpinBox, QDoubleSpinBox, QTextEdit, QListView, QPushButton, QToolButton, QGroupBox, QTabWidget,
+QDockWidget, QDockWidget, QTabBar, QTabWidget, QTableView, QHeaderView, QToolTip
+{
+   font-size: 11px;
+   font-family: "Arial";
+   font-style: normal;
+}
+
+QCheckBox::indicator
+{
+    width: 12px;
+    height: 12px;
+}
+
+QCheckBox::indicator:checked
+{
+    image: url(:/images/CheckBoxTick.png);
+}
+
+QRadioButton::indicator
+{
+    width: 12px;
+    height: 12px;
+}
+
+/* Nice Windows-XP-style password character. */
+QLineEdit[echoMode="2"] {
+    lineedit-password-character: 9679;
+}
+
+/* We provide a min-width and min-height for push buttons
+   so that they look elegant regardless of the width of the text. */
+QPushButton {
+    background-color: darkgray;
+    border-width: 2px;
+    border-color: darkgray;
+    border-style: solid;
+    border-radius: 5;
+    padding: 3px;
+    min-width: 9ex;
+    min-height: 2.5ex;
+}
+
+QPushButton:hover {
+   background-color: gray;
+}
+
+
+QPushButton::default {
+   border-color: skyblue;
+}
+
+
+QPushButton::default:hover {
+   background-color: skyblue;
+}
+
+
+/* Increase the padding, so the text is shifted when the button is pressed. */
+QPushButton:pressed {
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: lightgray;
+}
+
+QAbstractButton {
+    font: normal;
+}
+
+/* this is used for the menu buttons */
+
+RCToolButton, QToolBar#PrintPreviewToolBar > QToolButton {
+    
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: lightgrey;
+    background-color: lightgrey;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+RCToolButton::hover, QToolBar#PrintPreviewToolBar > QToolButton::hover {
+    
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: skyblue;
+    background-color: lightgrey;
+}
+
+RCToolButton::pressed, QToolBar#PrintPreviewToolBar > QToolButton::pressed {
+   
+    border-width: 2px;
+    border-color: skyblue;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+RCToolButton::checked, QToolBar#PrintPreviewToolBar > QToolButton::checked {
+   
+    border-width: 2px;
+    border-color: skyblue;
+    border-style: solid;
+    border-radius: 5px;    
+    background-color: darkgray;
+}
+
+
+/* Property buttons
+these hash selectors refer to the colour, layer, style and weight buttons 
+as used on various dialogs */
+QPushButton#_1000, #_1001 , #_1002, #_1003, #_1004 , #_1005, #_1006, #_1007, #_1008, #_1014, #_1110, #_1130 {
+    border: none;
+    padding: 0px;
+    background-color: lightgrey;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+
+/* Property buttons 
+these hash selectors refer to the colour, layer, style and weight buttons 
+as used on various dialogs */
+QPushButton#_1000:hover, #_1001:hover , #_1002:hover, #_1003:hover, #_1004:hover , #_1005:hover, #_1006:hover, #_1007:hover, #_1008:hover,#_1014:hover, #_1110:hover, #_1130:hover {
+    background-color: gray;
+}
+
+/* folder browser buttons */
+QPushButton#_1022 {
+    border: none;
+    padding: 0px;
+    background-color: lightgray;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+QPushButton#_1022:hover {
+    background-color: gray;
+}
+
+/* image browser select buttons */
+QPushButton#_110 {
+    border: none;
+    padding: 1px;
+    background-color: darkgray;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+QPushButton#_110:hover {
+    background-color: gray;
+}
+
+/* folder browser buttons */
+QPushButton#_1022 {
+    border: none;
+    padding: 0px;
+    background-color: lightgray;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+QPushButton#_1022:hover {
+    background-color: gray;
+}
+
+/* image browser select buttons */
+QPushButton#_110 {
+    border: none;
+    padding: 1px;
+    background-color: darkgray;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+QPushButton#_110:hover {
+    background-color: gray;
+}
+
+
+/* transparency preview backgound buttons */
+QPushButton#_1009,#_1010,#_1011,#_1012,#_1013 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: dimgray;
+    border-radius: 0px;
+    background-color: dimgray;
+    padding: 0px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+QPushButton#_1009:hover,#_1010:hover,#_1011:hover,#_1012:hover,#_1013:hover {
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: lightgray;
+}
+
+QPushButton#_1009:checked,#_1010:checked,#_1011:checked,#_1012:checked,#_1013:checked {
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgray;
+    background-color: lightgray;
+}
+
+/* Style bar buttons
+this is used for the style bar buttons 
+They are styled the same as the property buttons shown above
+*/
+
+RCStyleButton {
+    
+    background-color: lightgrey;
+    border: none;
+    padding: 0px;
+    min-width: 0px;
+    min-height: 0px;
+}
+
+
+/* same as the property buttons above */
+
+RCStyleButton:hover {
+    
+   background-color: gray;
+   border-style: solid;
+   border-color: skyblue;
+   border-width: 2px;
+}
+
+
+RCStyleButton:pressed {
+    
+   background-color: gray;
+   border-style: solid;
+   border-color: skyblue;
+   border-width: 2px;
+}
+
+/* Bold text on status bar looks awful. */
+QStatusBar QLabel {
+   font: normal;
+}
+
+QStatusBar::item {
+    border-width: 1;
+    border-color: darkgray;
+    border-style: solid;
+    border-radius: 2;
+}
+
+QComboBox, QLineEdit, QSpinBox, QDoubleSpinBox, QTextEdit, QListView {
+    background-color: white;
+    selection-color: black;
+    selection-background-color: gray;
+}
+
+QListView {
+    show-decoration-selected: 1;
+}
+
+QListView::item:hover {
+    background-color: gray;
+}
+
+/* We reserve 1 pixel space in padding. When we get the focus,
+   we kill the padding and enlarge the border. This makes the items
+   glow. */
+QLineEdit, QFrame {
+    border-width: 0px;
+    padding: 0px;
+    border-style: none;
+    border-radius: 0px;
+}
+
+/* As mentioned above, eliminate the padding and increase the border. */
+QLineEdit:focus, QFrame:focus {
+    border-width: 3px;
+    padding: 0px;
+}
+
+/* A QLabel is a QFrame ... */
+QLabel {
+    border-style: none;
+    border-radius: 0px;
+    padding: 0;
+    background: lightgrey;
+}
+
+
+/* this is the window that holds the views */
+RCCentralWidget {
+    background-color: gray
+}
+
+
+/* this the view window */
+RCView {
+    padding: 0px;
+    border-width: 0px;
+    border-style: none;
+    border-radius: 0px;
+    background-color: gray;
+}
+
+RCViewLabel {
+    background-color: transparent;
+}
+
+
+RCViewLabel#ViewNameLabel {
+    margin-left: 0px;
+    margin-right: 2px;
+}
+
+
+RCViewLabel#ZoomScaleLabel {
+    margin-left: 3px;
+    margin-right: 0px;
+}
+
+RCViewLabel#PrintScaleLabel {
+    margin-left: 2px;
+}
+
+
+/* these are the buttons on the right hand side of the view title bar */ 
+QToolButton#TileViewButton,  #MaximizeViewButton, #CloseViewButton {
+    background-color: transparent;	
+}
+
+QToolButton#TileViewButton:hover,  #MaximizeViewButton:hover, #CloseViewButton:hover {
+    background-color: darkgray;	
+}
+
+QSplitter {
+
+}
+
+/* A QToolTip is a QLabel ... */
+QToolTip {
+    border: 2px solid darkgray;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 1000;
+}
+
+/* Nice to have the background color change when hovered. */
+QRadioButton:hover, QCheckBox:hover {
+    background-color: gray;
+}
+
+/* Force the dialog's buttons to follow the Windows guidelines. */
+QDialogButtonBox {
+    button-layout: 0;
+}
+
+QToolBar#PromptToolBar, #StatusToolBar {
+    background-color: lightgrey;
+}
+
+QToolBar#PromptToolBar QLabel, QToolBar#StatusToolBar QLabel {
+    background-color: white;
+}
+
+/* this is the button for showing the select hatch pattern/bitmap selection dialog
+on the Plane Verify Dialog */
+QDialog#PlaneVerify_Dialog QPushButton#_110
+{
+    min-width:  21px;
+    min-height: 21px;
+    max-width:  21px;
+    max-height: 21px;
+}

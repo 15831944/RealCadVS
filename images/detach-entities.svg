@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED1F24;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="LINE_59_">
+	<g id="XMLID_1_">
+		<g id="XMLID_5_">
+			<polygon id="XMLID_118_" class="st0" points="505.3,617.5 505.3,654.7 468.1,654.7 468.1,617.5 468.1,580.3 468.1,543.1 
+				505.3,543.1 505.3,580.3 			"/>
+			<polygon id="XMLID_117_" class="st0" points="505.3,431.5 505.3,468.7 468.1,468.7 468.1,431.5 468.1,394.2 468.1,357 505.3,357 
+				505.3,394.2 			"/>
+			<polygon id="XMLID_116_" class="st1" points="319.3,878 319.3,915.2 282.1,915.2 282.1,878 282.1,840.8 282.1,803.5 319.3,803.5 
+				319.3,840.8 			"/>
+			<polygon id="XMLID_115_" class="st1" points="654.2,171 654.2,208.2 617,208.2 617,171 617,133.8 617,96.6 654.2,96.6 
+				654.2,133.8 			"/>
+			<path id="XMLID_114_" d="M617,133.8V171H319.3c-20.6,0-37.2,16.7-37.2,37.2V357c0,20.5,16.7,37.2,37.2,37.2h148.8v37.2H282.1
+				c-20.5,0-37.2-16.7-37.2-37.2V171c0-20.6,16.7-37.2,37.2-37.2H617z"/>
+			<path id="XMLID_113_" d="M840.2,171v223.3c0,20.6-16.7,37.2-37.2,37.2H505.3v-37.2h260.5c20.5,0,37.2-16.7,37.2-37.2V208.2
+				c0-20.6-16.7-37.2-37.2-37.2H654.2v-37.2H803C823.6,133.8,840.2,150.4,840.2,171z"/>
+			<path id="XMLID_112_" d="M765.8,617.5v223.3c0,20.6-16.7,37.2-37.2,37.2H319.3v-37.2h372.1c20.5,0,37.2-16.7,37.2-37.2V654.7
+				c0-20.6-16.7-37.2-37.2-37.2H505.3v-37.2h223.3C749.2,580.3,765.8,597,765.8,617.5z"/>
+			<path id="XMLID_111_" d="M468.1,580.3v37.2H244.9c-20.5,0-37.2,16.7-37.2,37.2v148.8c0,20.5,16.7,37.2,37.2,37.2h37.2V878h-74.4
+				c-20.6,0-37.2-16.7-37.2-37.2V617.5c0-20.5,16.7-37.2,37.2-37.2H468.1z"/>
+		</g>
+		<g id="XMLID_6_">
+			<line id="XMLID_110_" class="st2" x1="282.1" y1="840.8" x2="282.1" y2="878"/>
+			<line id="XMLID_109_" class="st2" x1="282.1" y1="878" x2="282.1" y2="915.2"/>
+			<line id="XMLID_108_" class="st2" x1="319.3" y1="878" x2="319.3" y2="915.2"/>
+			<line id="XMLID_107_" class="st2" x1="319.3" y1="840.8" x2="319.3" y2="878"/>
+			<line id="XMLID_106_" class="st2" x1="468.1" y1="580.3" x2="468.1" y2="617.5"/>
+			<line id="XMLID_105_" class="st2" x1="468.1" y1="617.5" x2="468.1" y2="654.7"/>
+			<line id="XMLID_104_" class="st2" x1="505.3" y1="617.5" x2="505.3" y2="654.7"/>
+			<line id="XMLID_103_" class="st2" x1="505.3" y1="580.3" x2="505.3" y2="617.5"/>
+			<line id="XMLID_102_" class="st2" x1="654.2" y1="133.8" x2="654.2" y2="171"/>
+			<line id="XMLID_101_" class="st2" x1="654.2" y1="171" x2="654.2" y2="208.2"/>
+			<line id="XMLID_100_" class="st2" x1="617" y1="171" x2="617" y2="208.2"/>
+			<line id="XMLID_99_" class="st2" x1="617" y1="133.8" x2="617" y2="171"/>
+			<line id="XMLID_98_" class="st2" x1="505.3" y1="394.2" x2="505.3" y2="431.5"/>
+			<line id="XMLID_97_" class="st2" x1="505.3" y1="431.5" x2="505.3" y2="468.7"/>
+			<line id="XMLID_96_" class="st2" x1="468.1" y1="431.5" x2="468.1" y2="468.7"/>
+			<line id="XMLID_95_" class="st2" x1="468.1" y1="394.2" x2="468.1" y2="431.5"/>
+			<line id="XMLID_94_" class="st2" x1="505.3" y1="543.1" x2="505.3" y2="580.3"/>
+			<line id="XMLID_93_" class="st2" x1="468.1" y1="543.1" x2="468.1" y2="580.3"/>
+			<line id="XMLID_92_" class="st2" x1="505.3" y1="468.7" x2="468.1" y2="468.7"/>
+			<line id="XMLID_91_" class="st2" x1="505.3" y1="543.1" x2="468.1" y2="543.1"/>
+			<line id="XMLID_90_" class="st2" x1="282.1" y1="915.2" x2="319.3" y2="915.2"/>
+			<line id="XMLID_89_" class="st2" x1="319.3" y1="803.5" x2="319.3" y2="840.8"/>
+			<line id="XMLID_88_" class="st2" x1="282.1" y1="803.5" x2="282.1" y2="840.8"/>
+			<line id="XMLID_87_" class="st2" x1="282.1" y1="803.5" x2="319.3" y2="803.5"/>
+			<line id="XMLID_86_" class="st2" x1="617" y1="208.2" x2="654.2" y2="208.2"/>
+			<line id="XMLID_85_" class="st2" x1="654.2" y1="96.6" x2="654.2" y2="133.8"/>
+			<line id="XMLID_84_" class="st2" x1="617" y1="96.6" x2="617" y2="133.8"/>
+			<line id="XMLID_83_" class="st2" x1="617" y1="96.6" x2="654.2" y2="96.6"/>
+			<line id="XMLID_82_" class="st2" x1="468.1" y1="654.7" x2="505.3" y2="654.7"/>
+			<line id="XMLID_9_" class="st2" x1="505.3" y1="357" x2="505.3" y2="394.2"/>
+			<line id="XMLID_8_" class="st2" x1="468.1" y1="357" x2="468.1" y2="394.2"/>
+			<line id="XMLID_7_" class="st2" x1="468.1" y1="357" x2="505.3" y2="357"/>
+		</g>
+	</g>
+</g>
+</svg>

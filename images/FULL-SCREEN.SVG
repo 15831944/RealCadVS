@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:0.1417;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="Veg-Existing">
+</g>
+<g id="Concrete">
+	<g id="LINE_39_">
+		<g id="XMLID_1_">
+			<g>
+				<polygon points="945,748.2 945,945 748.2,945 748.2,905.7 877.8,905.7 576.8,604.7 604.7,576.8 905.7,877.8 905.7,748.2 				"/>
+				<polygon points="945,79 945,275.8 905.7,275.8 905.7,146.2 604.7,447.2 576.8,419.4 877.8,118.3 748.2,118.3 748.2,79 				"/>
+				<polygon points="447.2,419.4 419.4,447.2 118.3,146.2 118.3,275.8 79,275.8 79,79 275.8,79 275.8,118.3 146.2,118.3 				"/>
+				<polygon points="447.2,604.7 146.2,905.7 275.8,905.7 275.8,945 79,945 79,748.2 118.3,748.2 118.3,877.8 419.4,576.8 				"/>
+			</g>
+			<g>
+				<line class="st0" x1="79" y1="275.8" x2="118.3" y2="275.8"/>
+				<line class="st0" x1="79" y1="79" x2="79" y2="275.8"/>
+				<line class="st0" x1="275.8" y1="79" x2="79" y2="79"/>
+				<line class="st0" x1="275.8" y1="118.3" x2="275.8" y2="79"/>
+				<line class="st0" x1="146.2" y1="118.3" x2="447.2" y2="419.4"/>
+				<line class="st0" x1="419.4" y1="447.2" x2="447.2" y2="419.4"/>
+				<line class="st0" x1="118.3" y1="146.2" x2="419.4" y2="447.2"/>
+				<line class="st0" x1="275.8" y1="118.3" x2="146.2" y2="118.3"/>
+				<line class="st0" x1="118.3" y1="146.2" x2="118.3" y2="275.8"/>
+				<line class="st0" x1="275.8" y1="945" x2="275.8" y2="905.7"/>
+				<line class="st0" x1="79" y1="945" x2="275.8" y2="945"/>
+				<line class="st0" x1="79" y1="748.2" x2="79" y2="945"/>
+				<line class="st0" x1="118.3" y1="748.2" x2="79" y2="748.2"/>
+				<line class="st0" x1="118.3" y1="877.8" x2="419.4" y2="576.8"/>
+				<line class="st0" x1="447.2" y1="604.7" x2="419.4" y2="576.8"/>
+				<line class="st0" x1="146.2" y1="905.7" x2="447.2" y2="604.7"/>
+				<line class="st0" x1="118.3" y1="748.2" x2="118.3" y2="877.8"/>
+				<line class="st0" x1="146.2" y1="905.7" x2="275.8" y2="905.7"/>
+				<line class="st0" x1="945" y1="748.2" x2="905.7" y2="748.2"/>
+				<line class="st0" x1="945" y1="945" x2="945" y2="748.2"/>
+				<line class="st0" x1="748.2" y1="945" x2="945" y2="945"/>
+				<line class="st0" x1="748.2" y1="905.7" x2="748.2" y2="945"/>
+				<line class="st0" x1="877.8" y1="905.7" x2="576.8" y2="604.7"/>
+				<line class="st0" x1="604.7" y1="576.8" x2="576.8" y2="604.7"/>
+				<line class="st0" x1="905.7" y1="877.8" x2="604.7" y2="576.8"/>
+				<line class="st0" x1="748.2" y1="905.7" x2="877.8" y2="905.7"/>
+				<line class="st0" x1="905.7" y1="877.8" x2="905.7" y2="748.2"/>
+				<line class="st0" x1="748.2" y1="79" x2="748.2" y2="118.3"/>
+				<line class="st0" x1="945" y1="79" x2="748.2" y2="79"/>
+				<line class="st0" x1="945" y1="275.8" x2="945" y2="79"/>
+				<line class="st0" x1="905.7" y1="275.8" x2="945" y2="275.8"/>
+				<line class="st0" x1="905.7" y1="146.2" x2="604.7" y2="447.2"/>
+				<line class="st0" x1="576.8" y1="419.4" x2="604.7" y2="447.2"/>
+				<line class="st0" x1="877.8" y1="118.3" x2="576.8" y2="419.4"/>
+				<line class="st0" x1="905.7" y1="275.8" x2="905.7" y2="146.2"/>
+				<line class="st0" x1="877.8" y1="118.3" x2="748.2" y2="118.3"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

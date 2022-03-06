@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>CFBundleIconFile</key>
+	<string>RealCAD.icns</string>
+	<key>CFBundleGetInfoString</key>
+	<string>The Authentic RealCAD Application.</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleName</key>
+	<string>RealCAD</string>
+	<key>CFBundleVersion</key>
+	    <string>8</string>	
+	<key>CFBundleExecutable</key>
+	<string>RealCAD</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.cadinternational.RealCAD-v8</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.13</string>
+	<key>NOTE</key>
+	<string>Created by CAD International</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>RealCAD-v8</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2019 CAD International. All rights reserved.</string>
+	<key>LSApplicationCategoryType</key>
+	<string>CAD</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>cad</string>
+			</array>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>????</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>CAD.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>RealCAD CAD</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSTypeIsPackage</key>
+			<string>false</string>
+		</dict>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<string>public.data</string>
+			<key>UTTypeDescription</key>
+			<string>RealCAD Drawing</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.cadinternational.RealCAD.cad</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>com.apple.ostype</key>
+				<array>
+					<string>cad</string>
+				</array>
+				<key>public.filename-extension</key>
+				<string>cad</string>
+				<key>public.mime-type</key>
+				<string>application/cad</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

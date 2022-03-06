@@ -1,0 +1,42 @@
+
+#include "ncwin.h"
+#include "RCDialog.h"
+#include "dxfout_dialog.h"
+#include "ui_dxfout_dialog.h"
+
+DXFOut_Dialog::DXFOut_Dialog(HANDLE parent, HANDLE rcparent, int f):
+	DXFOut_Dialog((QWidget *)parent, (Dialog *)rcparent, (Qt::WindowFlags) f)
+{}
+DXFOut_Dialog::DXFOut_Dialog(QWidget *parent,Dialog *rcparent, Qt::WindowFlags f) :
+    //QDialog(parent,f),
+    RCDialog(rcparent,parent,f),
+    ui(new Ui::DXFOut_Dialog)
+{
+  ui->setupUi(this);
+
+  initDialog(this);
+
+  connect(ui->_1,  SIGNAL(clicked(bool)),  this,  SLOT(on_accept()));
+  connect(ui->_2,  SIGNAL(clicked(bool)),  this,  SLOT(reject()));
+}
+
+DXFOut_Dialog::~DXFOut_Dialog()
+{
+    delete ui;
+}
+
+void DXFOut_Dialog::on_accept()
+{
+    // using the dialog callback function
+    UINT msg;
+    WPARAM wParam;
+    LPARAM lParam;
+
+    msg = WM_COMMAND;
+
+    // click OK
+    wParam = MAKEWPARAM((WORD)IDOK,(WORD)0);
+    lParam = (LPARAM)ui->_1;
+    if(dialogcb((HWND)this,msg,wParam,lParam))
+        QDialog::accept();
+}

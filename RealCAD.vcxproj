@@ -1,0 +1,1972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{792D222B-31D0-3765-8582-32777B9A4504}</ProjectGuid>
+    <RootNamespace>RealCAD</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.22000.0</WindowsTargetPlatformMinVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>RealCAD</PrimaryOutput>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>RealCAD</PrimaryOutput>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>debug\</OutDir>
+    <IntDir>debug\</IntDir>
+    <TargetName>RealCAD</TargetName>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>release\</OutDir>
+    <IntDir>release\</IntDir>
+    <TargetName>RealCAD</TargetName>
+    <IgnoreImportLibrary>true</IgnoreImportLibrary>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>5.14.2_msvc2017_64</QtInstall>
+    <QtModules>core;xml;opengl;network;gui;svg;widgets;qml;positioning;printsupport;webchannel;quick;concurrent;webengine;webenginewidgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>5.15.2_msvc2015_64</QtInstall>
+    <QtModules>core;xml;opengl;network;gui;svg;widgets;qml;positioning;printsupport;webchannel;quick;concurrent;webengine;webenginewidgets</QtModules>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;release;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;UNICODE;_USING_QT;USING_WIDGETS;VERSION=REALCAD;CADAUSTRALIAVERSION=1;NEW_DRAGGING;USING_GLDLISTS;MAJOR_VERSION=8;MINOR_VERSION=3;QT_NO_DEBUG_OUTPUT;NEW_RUBBERB;_CRT_NO_VA_START_VALIDATION;NDEBUG;QT_NO_DEBUG;QT_QMLMODELS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>
+      </ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;GLU32.lib;Advapi32.lib;$(QTDIR)\lib\Qt5QmlModels.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\Program Files (x86)\Windows Kits\10\Lib\10.0.10586.0\um\x64;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\RealCAD.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;UNICODE;_USING_QT;USING_WIDGETS;VERSION=REALCAD;CADAUSTRALIAVERSION=1;NEW_DRAGGING;USING_GLDLISTS;MAJOR_VERSION=8;MINOR_VERSION=3;QT_NO_DEBUG_OUTPUT;NEW_RUBBERB;_CRT_NO_VA_START_VALIDATION;NDEBUG;QT_NO_DEBUG;QT_WEBENGINEWIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_WEBENGINECORE_LIB;QT_QUICK_LIB;QT_GUI_LIB;QT_QMLMODELS_LIB;QT_WEBCHANNEL_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_POSITIONING_LIB;QT_XML_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>$(Configuration)</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>RealCAD</InitFuncName>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>$(ProjectDir)</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;debug;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;UNICODE;_USING_QT;USING_WIDGETS;VERSION=REALCAD;CADAUSTRALIAVERSION=1;NEW_DRAGGING;USING_GLDLISTS;MAJOR_VERSION=8;MINOR_VERSION=3;NEW_RUBBERB;_RCDEBUG;_CRT_NO_VA_START_VALIDATION;QT_QMLMODELS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;GLU32.lib;Advapi32.lib;$(QTDIR)\lib\Qt5QmlModelsd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\Program Files (x86)\Windows Kits\10\Lib\10.0.10586.0\um\x64;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;..\build-LANDWorksCADQt-Desktop_Qt_5_14_2_MSVC2017_64bit-Debug\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\RealCAD.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;UNICODE;_USING_QT;USING_WIDGETS;VERSION=REALCAD;CADAUSTRALIAVERSION=1;NEW_DRAGGING;USING_GLDLISTS;MAJOR_VERSION=8;MINOR_VERSION=3;NEW_RUBBERB;_RCDEBUG;_CRT_NO_VA_START_VALIDATION;QT_WEBENGINEWIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_WEBENGINECORE_LIB;QT_QUICK_LIB;QT_GUI_LIB;QT_QMLMODELS_LIB;QT_WEBCHANNEL_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_POSITIONING_LIB;QT_XML_LIB;QT_CONCURRENT_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>$(Configuration)/ui_header</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>RealCAD</InitFuncName>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>$(ProjectDir)/ui_header</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Chamfer_Dialog.cpp" />
+    <ClCompile Include="source\GeneratePoints_Dialog.cpp" />
+    <ClCompile Include="source\LineAngle_Dialog.cpp" />
+    <ClCompile Include="source\Ncanim.cpp" />
+    <ClCompile Include="source\Ncarcb.cpp" />
+    <ClCompile Include="source\Ncarrang.cpp" />
+    <ClCompile Include="source\Ncattrib.cpp" />
+    <ClCompile Include="source\Ncbmapb.cpp" />
+    <ClCompile Include="source\Ncbmask.cpp" />
+    <ClCompile Include="source\Nccira.cpp" />
+    <ClCompile Include="source\Nccirb.cpp" />
+    <ClCompile Include="source\Nccirc.cpp" />
+    <ClCompile Include="source\Nccird.cpp" />
+    <ClCompile Include="source\Ncclip.cpp" />
+    <ClCompile Include="source\Nccomm.cpp" />
+    <ClCompile Include="source\Nccurvea.cpp" />
+    <ClCompile Include="source\Nccurveb.cpp" />
+    <ClCompile Include="source\Ncdialog.cpp" />
+    <ClCompile Include="source\Ncdimena.cpp" />
+    <ClCompile Include="source\Ncdimenb.cpp" />
+    <ClCompile Include="source\Ncdimenc.cpp" />
+    <ClCompile Include="source\Ncdimend.cpp" />
+    <ClCompile Include="source\Ncdimene.cpp" />
+    <ClCompile Include="source\Ncdimenf.cpp" />
+    <ClCompile Include="source\Ncdxfin.cpp" />
+    <ClCompile Include="source\Ncdxfout.cpp" />
+    <ClCompile Include="source\Ncellipa.cpp" />
+    <ClCompile Include="source\Ncellipb.cpp" />
+    <ClCompile Include="source\Ncfiga.cpp" />
+    <ClCompile Include="source\Ncfigb.cpp" />
+    <ClCompile Include="source\Ncfile.cpp" />
+    <ClCompile Include="source\Ncgrid.cpp" />
+    <ClCompile Include="source\Ncgroupa.cpp" />
+    <ClCompile Include="source\Ncgroupb.cpp" />
+    <ClCompile Include="source\Nchidea.cpp" />
+    <ClCompile Include="source\Nchideb.cpp" />
+    <ClCompile Include="source\Nchpgout.cpp" />
+    <ClCompile Include="source\Ncigsout.cpp" />
+    <ClCompile Include="source\Ncinters.cpp" />
+    <ClCompile Include="source\Nclight.cpp" />
+    <ClCompile Include="source\Nclinea.cpp" />
+    <ClCompile Include="source\Nclineb.cpp" />
+    <ClCompile Include="source\Nclist.cpp" />
+    <ClCompile Include="source\Ncmask.cpp" />
+    <ClCompile Include="source\Ncmatrix.cpp" />
+    <ClCompile Include="source\Ncmeas.cpp" />
+    <ClCompile Include="source\Ncmeta.cpp" />
+    <ClCompile Include="source\Ncnc.cpp" />
+    <ClCompile Include="source\Ncpatcha.cpp" />
+    <ClCompile Include="source\Ncpatchb.cpp" />
+    <ClCompile Include="source\Ncplanea.cpp" />
+    <ClCompile Include="source\Ncplaneb.cpp" />
+    <ClCompile Include="source\Ncpoint.cpp" />
+    <ClCompile Include="source\Ncpointb.cpp" />
+    <ClCompile Include="source\Ncprint.cpp" />
+    <ClCompile Include="source\Ncraya.cpp" />
+    <ClCompile Include="source\Ncrayb.cpp" />
+    <ClCompile Include="source\Ncreva.cpp" />
+    <ClCompile Include="source\Ncrevb.cpp" />
+    <ClCompile Include="source\Ncrulea.cpp" />
+    <ClCompile Include="source\Ncruleb.cpp" />
+    <ClCompile Include="source\Ncshadea.cpp" />
+    <ClCompile Include="source\Ncshadeb.cpp" />
+    <ClCompile Include="source\Nctexta.cpp" />
+    <ClCompile Include="source\Nctextb.cpp" />
+    <ClCompile Include="source\Nctextc.cpp" />
+    <ClCompile Include="source\Nctrans.cpp" />
+    <ClCompile Include="source\Nctrim.cpp" />
+    <ClCompile Include="source\Ncval.cpp" />
+    <ClCompile Include="source\Ncviewa.cpp" />
+    <ClCompile Include="source\Ncviewb.cpp" />
+    <ClCompile Include="source\Ncviewc.cpp" />
+    <ClCompile Include="source\Ncwork.cpp" />
+    <ClCompile Include="source\RCCentralWidget.cpp" />
+    <ClCompile Include="source\RCDialog.cpp" />
+    <ClCompile Include="source\RCFigureBrowser.cpp" />
+    <ClCompile Include="source\RCGraphicsItems.cpp" />
+    <ClCompile Include="source\RCGraphicsScene.cpp" />
+    <ClCompile Include="source\RCGraphicsView.cpp" />
+    <ClCompile Include="source\RCOpenGL.cpp" />
+    <ClCompile Include="source\RCPlatform.cpp" />
+    <ClCompile Include="source\RCView.cpp" />
+    <ClCompile Include="source\RCtoolbutton.cpp" />
+    <ClCompile Include="source\UnitTests.cpp" />
+    <ClCompile Include="source\_tools.cpp" />
+    <ClCompile Include="source\aboutrealcad_dialog.cpp" />
+    <ClCompile Include="source\attributedelete_dialog.cpp" />
+    <ClCompile Include="source\attributeedit_dialog.cpp" />
+    <ClCompile Include="source\attributelist_dialog.cpp" />
+    <ClCompile Include="source\attributenew_dialog.cpp" />
+    <ClCompile Include="source\bitmap_dialog.cpp" />
+    <ClCompile Include="source\bitmaptransparency_dialog.cpp" />
+    <ClCompile Include="source\bumpmap_dialog.cpp" />
+    <ClCompile Include="source\calculator_dialog.cpp" />
+    <ClCompile Include="source\circleverify_dialog.cpp" />
+    <ClCompile Include="source\composeddrawing_dialog.cpp" />
+    <ClCompile Include="source\converttocurve_dialog.cpp" />
+    <ClCompile Include="source\copyalong_dialog.cpp" />
+    <ClCompile Include="source\copyarray_dialog.cpp" />
+    <ClCompile Include="source\copybitmap_dialog.cpp" />
+    <ClCompile Include="source\copycomposeddrawing_dialog.cpp" />
+    <ClCompile Include="source\createview_dialog.cpp" />
+    <ClCompile Include="source\createworkplane_dialog.cpp" />
+    <ClCompile Include="source\createzone_dialog.cpp" />
+    <ClCompile Include="source\curve_dialog.cpp" />
+    <ClCompile Include="source\curveverify_dialog.cpp" />
+    <ClCompile Include="source\definecolour_dialog.cpp" />
+    <ClCompile Include="source\definepatternstyle_dialog.cpp" />
+    <ClCompile Include="source\definestyle_dialog.cpp" />
+    <ClCompile Include="source\deletedrawing_dialog.cpp" />
+    <ClCompile Include="source\deleteview_dialog.cpp" />
+    <ClCompile Include="source\deleteworkplane_dialog.cpp" />
+    <ClCompile Include="source\deletezone_dialog.cpp" />
+    <ClCompile Include="source\dimension_dialog.cpp" />
+    <ClCompile Include="source\dimensioncterminator_dialog.cpp" />
+    <ClCompile Include="source\dimensionprefix0_dialog.cpp" />
+    <ClCompile Include="source\dimensionprefix_dialog.cpp" />
+    <ClCompile Include="source\dimensionsuffix0_dialog.cpp" />
+    <ClCompile Include="source\dimensionterminator_dialog.cpp" />
+    <ClCompile Include="source\dimensiontext_dialog.cpp" />
+    <ClCompile Include="source\dimensionvalue_dialog.cpp" />
+    <ClCompile Include="source\drawingverify_dialog.cpp" />
+    <ClCompile Include="source\dwgimportoptions_dialog.cpp" />
+    <ClCompile Include="source\dxfin_dialog.cpp" />
+    <ClCompile Include="source\dxfout_dialog.cpp" />
+    <ClCompile Include="source\ellipseinsert_dialog.cpp" />
+    <ClCompile Include="source\ellipseverify_dialog.cpp" />
+    <ClCompile Include="source\explode_dialog.cpp" />
+    <ClCompile Include="source\figure_dialog.cpp" />
+    <ClCompile Include="source\figuretext_dialog.cpp" />
+    <ClCompile Include="source\figureverify_dialog.cpp" />
+    <ClCompile Include="source\findandreplace_dialog.cpp" />
+    <ClCompile Include="source\findinfiles_dialog.cpp" />
+    <ClCompile Include="source\grid_dialog.cpp" />
+    <ClCompile Include="source\group_dialog.cpp" />
+    <ClCompile Include="source\groupverify_dialog.cpp" />
+    <ClCompile Include="source\information_dialog.cpp" />
+    <ClCompile Include="source\insertfiguretext_dialog.cpp" />
+    <ClCompile Include="source\keyboardshortcuts_dialog.cpp" />
+    <ClCompile Include="source\layergroup_dialog.cpp" />
+    <ClCompile Include="source\layerspinbox.cpp" />
+    <ClCompile Include="source\leader_dialog.cpp" />
+    <ClCompile Include="source\leaderverify_dialog.cpp" />
+    <ClCompile Include="source\license_dialog.cpp" />
+    <ClCompile Include="source\licenseagreement_dialog.cpp" />
+    <ClCompile Include="source\licensekey_dialog.cpp" />
+    <ClCompile Include="source\lightverify_dialog.cpp" />
+    <ClCompile Include="source\line_dialog.cpp" />
+    <ClCompile Include="source\lineparallel_dialog.cpp" />
+    <ClCompile Include="source\lineverify_dialog.cpp" />
+    <ClCompile Include="source\lttextinsert_dialog.cpp" />
+    <ClCompile Include="source\mainwindow.cpp" />
+    <ClCompile Include="source\maskchange_dialog.cpp" />
+    <ClCompile Include="source\material_dialog.cpp" />
+    <ClCompile Include="source\measure_dialog.cpp" />
+    <ClCompile Include="source\measureangle_dialog.cpp" />
+    <ClCompile Include="source\measurearea_dialog.cpp" />
+    <ClCompile Include="source\measurelengtharea_dialog.cpp" />
+    <ClCompile Include="source\mirror_dialog.cpp" />
+    <ClCompile Include="source\missing_dialog.cpp" />
+    <ClCompile Include="source\modifyparametricfigure_dialog.cpp" />
+    <ClCompile Include="source\move_dialog.cpp" />
+    <ClCompile Include="source\ncapi.cpp" />
+    <ClCompile Include="source\ncappl.cpp" />
+    <ClCompile Include="source\ncarcha.cpp" />
+    <ClCompile Include="source\ncarchb.cpp" />
+    <ClCompile Include="source\ncarchc.cpp" />
+    <ClCompile Include="source\ncbasica.cpp" />
+    <ClCompile Include="source\ncbasicb.cpp" />
+    <ClCompile Include="source\ncbeam.cpp" />
+    <ClCompile Include="source\ncbmapa.cpp" />
+    <ClCompile Include="source\nccaptra.cpp" />
+    <ClCompile Include="source\nccustom.cpp" />
+    <ClCompile Include="source\ncdimeng.cpp" />
+    <ClCompile Include="source\ncent.cpp" />
+    <ClCompile Include="source\ncfilem.cpp" />
+    <ClCompile Include="source\nchpglin.cpp" />
+    <ClCompile Include="source\ncigesin.cpp" />
+    <ClCompile Include="source\nclinec.cpp" />
+    <ClCompile Include="source\ncmain.cpp" />
+    <ClCompile Include="source\ncmeduin.cpp" />
+    <ClCompile Include="source\ncpanel.cpp" />
+    <ClCompile Include="source\ncplanec.cpp" />
+    <ClCompile Include="source\ncsim.cpp" />
+    <ClCompile Include="source\ncwina.cpp" />
+    <ClCompile Include="source\ncwinb.cpp" />
+    <ClCompile Include="source\ncwinc.cpp" />
+    <ClCompile Include="source\nczone.cpp" />
+    <ClCompile Include="source\networksoftwarelicense_dialog.cpp" />
+    <ClCompile Include="source\offset_dialog.cpp" />
+    <ClCompile Include="source\offsetd_dialog.cpp" />
+    <ClCompile Include="source\oneviewchange_dialog.cpp" />
+    <ClCompile Include="source\patch_dialog.cpp" />
+    <ClCompile Include="source\patchcorners_dialog.cpp" />
+    <ClCompile Include="source\patchmesh_dialog.cpp" />
+    <ClCompile Include="source\patchmove_dialog.cpp" />
+    <ClCompile Include="source\patchtriangulate_dialog.cpp" />
+    <ClCompile Include="source\patchverify_dialog.cpp" />
+    <ClCompile Include="source\planeverify_dialog.cpp" />
+    <ClCompile Include="source\plotscale_dialog.cpp" />
+    <ClCompile Include="source\pointverify_dialog.cpp" />
+    <ClCompile Include="source\polygon_dialog.cpp" />
+    <ClCompile Include="source\positionalong_dialog.cpp" />
+    <ClCompile Include="source\positionoffset_dialog.cpp" />
+    <ClCompile Include="source\printpreview_dialog.cpp" />
+    <ClCompile Include="source\project_dialog.cpp" />
+    <ClCompile Include="source\ptin_poly.cpp" />
+    <ClCompile Include="source\qtdefs.cpp" />
+    <ClCompile Include="source\raytrace_dialog.cpp" />
+    <ClCompile Include="source\rccombolist.cpp" />
+    <ClCompile Include="source\rcdoublespinbox.cpp" />
+    <ClCompile Include="source\rcglprinterwidget.cpp" />
+    <ClCompile Include="source\rcgraphicspreview.cpp" />
+    <ClCompile Include="source\rcintegerspinbox.cpp" />
+    <ClCompile Include="source\rconecoordinateentry.cpp" />
+    <ClCompile Include="source\rcopenglwidget.cpp" />
+    <ClCompile Include="source\rcplanesamplelabel.cpp" />
+    <ClCompile Include="source\rcprintpreview_dialog.cpp" />
+    <ClCompile Include="source\rcsplashscreen_dialog.cpp" />
+    <ClCompile Include="source\rctoolbox.cpp" />
+    <ClCompile Include="source\rectangle_dialog.cpp" />
+    <ClCompile Include="source\reference_dialog.cpp" />
+    <ClCompile Include="source\renamedrawing_dialog.cpp" />
+    <ClCompile Include="source\resetview_dialog.cpp" />
+    <ClCompile Include="source\resetworkplane_dialog.cpp" />
+    <ClCompile Include="source\rotate_dialog.cpp" />
+    <ClCompile Include="source\ruledsurface_dialog.cpp" />
+    <ClCompile Include="source\ruledsurfaceverify_dialog.cpp" />
+    <ClCompile Include="source\scale_dialog.cpp" />
+    <ClCompile Include="source\selectapplication_dialog.cpp" />
+    <ClCompile Include="source\selectdrawing_dialog.cpp" />
+    <ClCompile Include="source\selectdrawingview_dialog.cpp" />
+    <ClCompile Include="source\selecthatchpattern_dialog.cpp" />
+    <ClCompile Include="source\selectunloadapplication_dialog.cpp" />
+    <ClCompile Include="source\selectview_dialog.cpp" />
+    <ClCompile Include="source\selectworkplane_dialog.cpp" />
+    <ClCompile Include="source\shade_dialog.cpp" />
+    <ClCompile Include="source\smtp.cpp" />
+    <ClCompile Include="source\snapmask_dialog.cpp" />
+    <ClCompile Include="source\standard_Dbl_dialog.cpp" />
+    <ClCompile Include="source\standard_Int_dialog.cpp" />
+    <ClCompile Include="source\standardstring_dialog.cpp" />
+    <ClCompile Include="source\stretch_dialog.cpp" />
+    <ClCompile Include="source\styleset_dialog.cpp" />
+    <ClCompile Include="source\sunposition_dialog.cpp" />
+    <ClCompile Include="source\surfaceofrev_dialog.cpp" />
+    <ClCompile Include="source\surfaceofrevinsert_dialog.cpp" />
+    <ClCompile Include="source\surfaceofrevverify_dialog.cpp" />
+    <ClCompile Include="source\surfaceproperty_dialog.cpp" />
+    <ClCompile Include="source\systemoptions_dialog.cpp" />
+    <ClCompile Include="source\systempath_dialog.cpp" />
+    <ClCompile Include="source\text_dialog.cpp" />
+    <ClCompile Include="source\textinsert_dialog.cpp" />
+    <ClCompile Include="source\textinsertcounter_dialog.cpp" />
+    <ClCompile Include="source\texture_dialog.cpp" />
+    <ClCompile Include="source\textverify_dialog.cpp" />
+    <ClCompile Include="source\textverifychange_dialog.cpp" />
+    <ClCompile Include="source\toolbars_dialog.cpp" />
+    <ClCompile Include="source\trace_dialog.cpp" />
+    <ClCompile Include="source\translate_dialog.cpp" />
+    <ClCompile Include="source\trim_dialog.cpp" />
+    <ClCompile Include="source\unlicense_dialog.cpp" />
+    <ClCompile Include="source\v7license_dialog.cpp" />
+    <ClCompile Include="source\viewclip_dialog.cpp" />
+    <ClCompile Include="source\weight_dialog.cpp" />
+    <ClCompile Include="source\weightspinbox.cpp" />
+    <ClCompile Include="source\zone_dialog.cpp" />
+    <ClCompile Include="source\zoomzone_dialog.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="source\Chamfer_Dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\GeneratePoints_Dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\GraphicsRBItem.h" />
+    <QtMoc Include="source\LineAngle_Dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\MacNativeCode.h" />
+    <ClInclude Include="source\NCAPI.H" />
+    <ClInclude Include="source\Nccom.h" />
+    <ClInclude Include="source\Ncdxf.h" />
+    <ClInclude Include="source\Ncinters.h" />
+    <QtMoc Include="source\RCCentralwidget.h">
+    </QtMoc>
+    <QtMoc Include="source\RCDialog.h">
+    </QtMoc>
+    <QtMoc Include="source\RCFigureBrowser.h">
+    </QtMoc>
+    <ClInclude Include="source\RCGraphicsItems.h" />
+    <QtMoc Include="source\RCGraphicsScene.h">
+    </QtMoc>
+    <QtMoc Include="source\RCGraphicsView.h">
+    </QtMoc>
+    <ClInclude Include="source\RCImageResources.h" />
+    <ClInclude Include="source\RCOpenGL.h" />
+    <ClInclude Include="source\RCPlatform.h" />
+    <ClInclude Include="source\RCStringResources.h" />
+    <ClInclude Include="source\RCStyleSheets.h" />
+    <QtMoc Include="source\RCView.h">
+    </QtMoc>
+    <QtMoc Include="source\RCtoolbutton.h">
+    </QtMoc>
+    <QtMoc Include="source\Styleset_Dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\TextVerifyChange_Dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\UnitTests.h" />
+    <ClInclude Include="source\_tools.h" />
+    <QtMoc Include="source\aboutrealcad_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\attributedelete_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\attributeedit_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\attributelist_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\attributenew_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\bitmap_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\bitmaptransparency_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\bumpmap_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\calculator_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\circleverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\composeddrawing_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\converttocurve_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\copyalong_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\copyarray_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\copybitmap_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\copycomposeddrawing_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\createview_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\createworkplane_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\createzone_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\curve_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\curveverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\definecolour_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\definepatternstyle_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\definestyle_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\deletedrawing_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\deleteview_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\deleteworkplane_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\deletezone_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimension_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimensioncterminator_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimensionprefix0_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimensionprefix_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimensionsuffix0_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimensionterminator_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimensiontext_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dimensionvalue_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\drawingverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dwgimportoptions_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dxfin_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\dxfout_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\ellipseinsert_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\ellipseverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\explode_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\figure_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\figuretext_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\figureverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\findandreplace_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\findinfiles_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\grid_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\group_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\groupverify_dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\ijl.h" />
+    <QtMoc Include="source\information_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\insertfiguretext_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\keyboardshortcuts_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\layergroup_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\layerspinbox.h">
+    </QtMoc>
+    <QtMoc Include="source\leader_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\leaderverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\license_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\licenseagreement_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\licensekey_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\lightverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\line_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\lineparallel_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\lineverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\lttextinsert_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\mainwindow.h">
+    </QtMoc>
+    <QtMoc Include="source\maskchange_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\material_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\measure_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\measureangle_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\measurearea_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\measurelengtharea_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\mirror_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\missing_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\modifyparametricfigure_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\move_dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\ncbmask.h" />
+    <ClInclude Include="source\ncdialog.h" />
+    <ClInclude Include="source\ncent.h" />
+    <ClInclude Include="source\ncfile.h" />
+    <ClInclude Include="source\ncgrid.h" />
+    <ClInclude Include="source\nchide.h" />
+    <ClInclude Include="source\nclist.h" />
+    <ClInclude Include="source\ncmatrix.h" />
+    <ClInclude Include="source\ncpoint.h" />
+    <ClInclude Include="source\ncray.h" />
+    <ClInclude Include="source\ncshade.h" />
+    <ClInclude Include="source\ncsurface.h" />
+    <ClInclude Include="source\ncval.h" />
+    <ClInclude Include="source\ncview.h" />
+    <QtMoc Include="source\ncwin.h">
+    </QtMoc>
+    <ClInclude Include="source\ncwork.h" />
+    <QtMoc Include="source\networksoftwarelicense_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\offset_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\offsetd_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\oneviewchange_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\patch_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\patchcorners_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\patchmesh_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\patchmove_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\patchtriangulate_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\patchverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\planeverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\plotscale_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\pointverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\polygon_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\positionalong_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\positionoffset_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\printpreview_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\project_dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\ptin_poly.h" />
+    <QtMoc Include="source\qtdefs.h">
+    </QtMoc>
+    <QtMoc Include="source\raytrace_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\rccombolist.h">
+    </QtMoc>
+    <QtMoc Include="source\rcdoublespinbox.h">
+    </QtMoc>
+    <QtMoc Include="source\rcglprinterwidget.h">
+    </QtMoc>
+    <QtMoc Include="source\rcgraphicspreview.h">
+    </QtMoc>
+    <QtMoc Include="source\rcintegerspinbox.h">
+    </QtMoc>
+    <QtMoc Include="source\rconecoordinateentry.h">
+    </QtMoc>
+    <QtMoc Include="source\rcopenglwidget.h">
+    </QtMoc>
+    <QtMoc Include="source\rcplanesamplelabel.h">
+    </QtMoc>
+    <QtMoc Include="source\rcprintpreview_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\rcsplashscreen_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\rctoolbox.h">
+    </QtMoc>
+    <QtMoc Include="source\rectangle_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\reference_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\renamedrawing_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\resetview_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\resetworkplane_dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\resource.h" />
+    <ClInclude Include="source\resource1.h" />
+    <QtMoc Include="source\rotate_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\ruledsurface_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\ruledsurfaceverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\scale_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\selectapplication_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\selectdrawing_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\selectdrawingview_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\selecthatchpattern_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\selectunloadapplication_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\selectview_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\selectworkplane_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\shade_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\smtp.h">
+    </QtMoc>
+    <QtMoc Include="source\snapmask_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\standard_Dbl_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\standard_int_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\standardstring_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\stretch_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\sunposition_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\surfaceofrev_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\surfaceofrevinsert_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\surfaceofrevverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\surfaceproperty_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\systemoptions_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\systempath_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\text_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\textinsert_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\textinsertcounter_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\texture_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\textverify_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\toolbars_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\trace_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\translate_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\trim_dialog.h">
+    </QtMoc>
+    <ClInclude Include="source\ui_mainwindow.hxx" />
+    <QtMoc Include="source\unlicense_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\v7license_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\viewclip_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\weight_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\weightspinbox.h">
+    </QtMoc>
+    <QtMoc Include="source\zone_dialog.h">
+    </QtMoc>
+    <QtMoc Include="source\zoomzone_dialog.h">
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -MP -Zi -MDd /W0 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -MP -O2 -MD /W0 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="dialogs\ATTRIBUTEDELETE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ATTRIBUTEEDIT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ATTRIBUTELIST_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ATTRIBUTENEW_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\BITMAP_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\BITMAP_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\BUMPMAP_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CALCULATOR_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CHAMFER_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CIRCLEVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\COMPOSEDDRAWING_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CONVERTTOCURVE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\COPYALONG_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\COPYARRAY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\COPYBITMAP_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\COPYCOMPOSEDDRAWING_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CREATEVIEW_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CREATEWORKPLANE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CREATEZONE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CURVEVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\CURVE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DEFINECOLOUR_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DEFINEPATTERNSTYLE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DEFINESTYLE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DELETEDRAWING_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DELETEVIEW_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DELETEWORKPLANE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DELETEZONE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONCTERMINATOR_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONPREFIX0_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONPREFIX_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONSUFFIX0_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONTERMINATOR_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONTEXT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVALUE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFYPREFIX_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFYTERMINATOR_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFYVALUE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSIONVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSION_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DIMENSION_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DRAWINGVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DXFIN_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\DXFOUT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ELLIPSEINSERT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ELLIPSEVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\EXPLODE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FIGURETEXT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FIGUREVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FIGURE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FIGURE_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FIGURE_DIALOG_v8x.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FINDANDREPLACE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FINDANDREPLACE_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\FINDINFILES_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\GENERATEPOINTS_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\GRID_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\GROUPVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\GROUP_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\INFORMATION_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\INSERTFIGURETEXT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\KEYBOARDSHORTCUTS_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LAYERGROUP_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LAYER_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LEADERVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LEADER_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LICENSEAGREEMENT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LICENSEKEY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LICENSE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LIGHTVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LINEANGLE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LINEPARALLEL_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LINEVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LINE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\LTTEXTINSERT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MASKCHANGE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MATERIAL_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MEASUREANGLE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MEASUREAREA_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MEASURELENGTHAREA_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MEASURE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MIRROR_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MISSING_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MODIFYPARAMETRICFIGURE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\MOVE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\NETWORKSOFTWARELICENSE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\OFFSETD_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\OFFSET_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ONEVIEWCHANGE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PATCHCORNERS_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PATCHMESH_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PATCHMOVE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PATCHTRIANGULATE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PATCHVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PATCH_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PLANEVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PLOTSCALE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\POINTVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\POLYGON_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\POSITIONALONG_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\POSITIONOFFSET_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PRINTPREVIEW_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PRINTPREVIEW_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\PROJECT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RAYTRACE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RCFigureBrowser.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RECTANGLE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\REFERENCE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RENAMEDRAWING_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RESETVIEW_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RESETWORKPLANE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ROTATE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RULEDSURFACEVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\RULEDSURFACE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SCALE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTAPPLICATION_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTDRAWINGVIEW_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTDRAWINGVIEW_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTDRAWING_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTHATCHPATTERN_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTUNLOADAPPLICATION_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTVIEW_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SELECTWORKPLANE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SHADE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SNAPMASK_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\STANDARDSTRING_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\STANDARD_DBL_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\STANDARD_INT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\STRETCH_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\STYLESET_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SUNPOSITION_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEOFREVINSERT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEOFREVVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEOFREV_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SURFACEPROPERTY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SYSTEMOPTIONS_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\SYSTEMOPTIONS_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TEXTINSERTCOUNTER_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TEXTINSERT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TEXTURE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TEXTVERIFYCHANGE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TEXTVERIFY_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TEXTVERIFY_DIALOG_v7.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TEXT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TOOLBARS_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TRACE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TRANSLATE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\TRIM_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\UNLICENSE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\VIEWCLIP_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\WEIGHT_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ZONE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\ZOOMZONE_DIALOG.ui">
+    </QtUic>
+    <QtUic Include="dialogs\aboutrealcad_dialog.ui">
+    </QtUic>
+    <QtUic Include="dialogs\bitmaptransparency_dialog.ui">
+    </QtUic>
+    <QtUic Include="dialogs\dwgimportoptions_dialog.ui">
+    </QtUic>
+    <QtUic Include="dialogs\rccombolist.ui">
+    </QtUic>
+    <QtUic Include="dialogs\rconecoordinateentry.ui">
+    </QtUic>
+    <QtUic Include="dialogs\rcsplashscreen_dialog.ui">
+    </QtUic>
+    <QtUic Include="dialogs\systempath_dialog.ui">
+    </QtUic>
+    <QtUic Include="dialogs\v7license_dialog.ui">
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ARRANGE-back-one.svg" />
+    <None Include="images\ARRANGE-forward-one.svg" />
+    <None Include="images\ARRANGE-to-back.svg" />
+    <None Include="images\ARRANGE-to-front.svg" />
+    <None Include="images\ATTACHMENT-attribute.svg" />
+    <None Include="images\ATTACHMENT-comment.svg" />
+    <None Include="images\ATTACHMENT-hyperlink.svg" />
+    <None Include="images\ATTACHMENT-image.svg" />
+    <None Include="images\ATTACHMENT-scaled-image.svg" />
+    <None Include="images\ATTACHMENT-sound.svg" />
+    <None Include="images\ATTACHMENT-table.svg" />
+    <None Include="images\ATTACHMENTS.svg" />
+    <None Include="images\BandW.png" />
+    <None Include="images\CAPTURE-area.svg" />
+    <None Include="images\CAPTURE-bitmap.svg" />
+    <None Include="images\CAPTURE-camera-path.svg" />
+    <None Include="images\CAPTURE-object-path.svg" />
+    <None Include="images\CAPTURE-patch-path.svg" />
+    <None Include="images\CAPTURE-raytrace-render.svg" />
+    <None Include="images\CAPTURE-record-animation.svg" />
+    <None Include="images\CAPTURE-reference-path.svg" />
+    <None Include="images\CAPTURE-replay-animation-file.svg" />
+    <None Include="images\CAPTURE-view.svg" />
+    <None Include="images\CIRCLE-arc-by-center-and-edge.svg" />
+    <None Include="images\CIRCLE-arc-by-three-points.svg" />
+    <None Include="images\CIRCLE-circle-by-center-and-edge.svg" />
+    <None Include="images\CIRCLE-circle-by-three-edge-points.svg" />
+    <None Include="images\CIRCLE-circle-by-two-edge-points.svg" />
+    <None Include="images\CIRCLE-ellipse-by-three-points.svg" />
+    <None Include="images\CIRCLE-fixed-value-arc.svg" />
+    <None Include="images\CIRCLE-fixed-value-circle.svg" />
+    <None Include="images\CIRCLE-fixed-value-ellipse.svg" />
+    <None Include="images\CIRCLE-radius-fillet.svg" />
+    <None Include="images\CIRCLES-ARCS-ELLIPSES.svg" />
+    <None Include="images\COMPONENT-annotation-text.svg" />
+    <None Include="images\COMPONENT-component-by-dynamic-scale.svg" />
+    <None Include="images\COMPONENT-component-by-flip.svg" />
+    <None Include="images\COMPONENT-component-by-origin.svg" />
+    <None Include="images\COMPONENT-component-by-rotation.svg" />
+    <None Include="images\COMPONENT-component-save-as.svg" />
+    <None Include="images\COMPONENT-edit-annotation-text.svg" />
+    <None Include="images\COMPONENTS.svg" />
+    <None Include="images\COORDINATE-locked.svg" />
+    <None Include="images\COORDINATE-unlocked.svg" />
+    <None Include="images\CPAL.png" />
+    <None Include="images\CURVE-add-curve-point.svg" />
+    <None Include="images\CURVE-change-curve-degree.svg" />
+    <None Include="images\CURVE-convert-to-curves.svg" />
+    <None Include="images\CURVE-curve-by-control-points.svg" />
+    <None Include="images\CURVE-curve-thru-points.svg" />
+    <None Include="images\CURVE-delete-curve-point.svg" />
+    <None Include="images\CURVE-freehand-curve.svg" />
+    <None Include="images\CURVE-move-curve-point.svg" />
+    <None Include="images\CURVES.svg" />
+    <None Include="images\CheckBoxTick.png" />
+    <None Include="images\DIMENSION-angle-dimension.svg" />
+    <None Include="images\DIMENSION-area-dimension.svg" />
+    <None Include="images\DIMENSION-centerline.svg" />
+    <None Include="images\DIMENSION-diameter-dimension.svg" />
+    <None Include="images\DIMENSION-diameter-with-leader.svg" />
+    <None Include="images\DIMENSION-distance-and-bearing.svg" />
+    <None Include="images\DIMENSION-move-dimension-text.svg" />
+    <None Include="images\DIMENSION-parallel-dimension.svg" />
+    <None Include="images\DIMENSION-radius-dimension.svg" />
+    <None Include="images\DIMENSION-radius-with-leader.svg" />
+    <None Include="images\DIMENSION-x-axis-dimension.svg" />
+    <None Include="images\DIMENSION-y-axis-dimension.svg" />
+    <None Include="images\DIMENSIONS.svg" />
+    <None Include="images\DYNAMIC-VIEWS.svg" />
+    <None Include="images\DYNAMICVIEW-fly.svg" />
+    <None Include="images\DYNAMICVIEW-look-around.svg" />
+    <None Include="images\DYNAMICVIEW-orbit-view.svg" />
+    <None Include="images\DYNAMICVIEW-position-viewer.svg" />
+    <None Include="images\DYNAMICVIEW-rotate-view.svg" />
+    <None Include="images\DYNAMICVIEW-section-plane.svg" />
+    <None Include="images\DYNAMICVIEW-view-adjust-menu.svg" />
+    <None Include="images\DYNAMICVIEW-view-style.svg" />
+    <None Include="images\DYNAMICVIEW-walk-about.svg" />
+    <None Include="styles\mac\Dark.qss" />
+    <None Include="styles\win\2x\Dark.qss" />
+    <None Include="styles\win\Dark.qss" />
+    <None Include="DefaultSplashPage.html" />
+    <None Include="images\EDIT-delete-segment.svg" />
+    <None Include="images\EDIT-divide-by-entity.svg" />
+    <None Include="images\EDIT-divide-by-length.svg" />
+    <None Include="images\EDIT-divide-by-number.svg" />
+    <None Include="images\EDIT-explode.svg" />
+    <None Include="images\EDIT-join-glue.svg" />
+    <None Include="images\EDIT-magic-eraser.svg" />
+    <None Include="images\EDIT-trim-extend.svg" />
+    <None Include="images\EDIT-trim-length.svg" />
+    <None Include="images\EDIT-trim-to-corner.svg" />
+    <None Include="images\FILE-file-email.svg" />
+    <None Include="images\FILE-file-info.svg" />
+    <None Include="images\FILE-file-new-from-template.svg" />
+    <None Include="images\FILE-file-new.svg" />
+    <None Include="images\FILE-file-open.svg" />
+    <None Include="images\FILE-file-print.svg" />
+    <None Include="images\FILE-file-save-as.svg" />
+    <None Include="images\FILE-file-save.svg" />
+    <None Include="images\FILE-file-tools.svg" />
+    <None Include="images\FILE-find-in-files.svg" />
+    <None Include="images\FILE-preference-settings.svg" />
+    <None Include="images\FILE-preview-region.svg" />
+    <None Include="images\FILE-preview-view.svg" />
+    <None Include="images\GROUP-add-to-group.svg" />
+    <None Include="images\GROUP-create-group.svg" />
+    <None Include="images\GROUP-remove-from-group.svg" />
+    <None Include="images\GROUP-ungroup.svg" />
+    <None Include="images\HLS.png" />
+    <None Include="images\LAYOUT-add-viewport.svg" />
+    <None Include="images\LAYOUT-align-viewport.svg" />
+    <None Include="images\LAYOUT-change-viewport.svg" />
+    <None Include="images\LAYOUT-copy-layout.svg" />
+    <None Include="images\LAYOUT-delete-layout.svg" />
+    <None Include="images\LAYOUT-delete-viewport.svg" />
+    <None Include="images\LAYOUT-move-viewport.svg" />
+    <None Include="images\LAYOUT-new-layout.svg" />
+    <None Include="images\LAYOUT-pan-in-viewport.svg" />
+    <None Include="images\LAYOUT-rename-layout.svg" />
+    <None Include="images\LAYOUT-select-layout.svg" />
+    <None Include="images\LAYOUT-zoom-fit-viewport.svg" />
+    <None Include="images\LINES-angled-line.svg" />
+    <None Include="images\LINES-chamfer.svg" />
+    <None Include="images\LINES-freehand-lines.svg" />
+    <None Include="images\LINES-insert-lines.svg" />
+    <None Include="images\LINES-parallel-lines.svg" />
+    <None Include="images\LINES-rectangle.svg" />
+    <None Include="images\LINES-regular-polygon.svg" />
+    <None Include="images\LINES-x-axis-line.svg" />
+    <None Include="images\LINES-y-axis-line.svg" />
+    <None Include="images\LOCATE-locate-along.svg" />
+    <None Include="images\LOCATE-locate-apparent-intersection.svg" />
+    <None Include="images\LOCATE-locate-end.svg" />
+    <None Include="images\LOCATE-locate-intersection.svg" />
+    <None Include="images\LOCATE-locate-offset-point.svg" />
+    <None Include="images\LOCATE-locate-on.svg" />
+    <None Include="images\LOCATE-locate-origin-midpoint.svg" />
+    <None Include="images\LOCATE-locate-position.svg" />
+    <None Include="images\LOCATE-locate-reference-point.svg" />
+    <None Include="images\LOCATE-locate-xyz-reference.svg" />
+    <None Include="styles\mac\Light.qss" />
+    <None Include="styles\win\2x\Light.qss" />
+    <None Include="styles\win\Light.qss" />
+    <None Include="images\LinkIcon.png" />
+    <None Include="images\NoPreview.svg" />
+    <None Include="images\PLANE-add-vertex.svg" />
+    <None Include="images\PLANE-delete-vertex.svg" />
+    <None Include="images\PLANE-move-vertex.svg" />
+    <None Include="images\PLANE-plane-by-boundary.svg" />
+    <None Include="images\PLANE-plane-by-interior.svg" />
+    <None Include="images\PLANE-plane-by-vertex-points.svg" />
+    <None Include="images\PLANE-remove-hole.svg" />
+    <None Include="images\PLANE-whiteout.svg" />
+    <None Include="images\POINTS-generate-points.svg" />
+    <None Include="images\POINTS-single-points.svg" />
+    <None Include="images\PRINT-fit-page-width.svg" />
+    <None Include="images\PRINT-fit-page.svg" />
+    <None Include="images\PRINT-landscape.svg" />
+    <None Include="images\PRINT-output-to-pdf.svg" />
+    <None Include="images\PRINT-paper-setup.svg" />
+    <None Include="images\PRINT-portrait.svg" />
+    <None Include="images\PRINT-print-black-and-white.svg" />
+    <None Include="images\PRINT-print-colour.svg" />
+    <None Include="images\PRINT-print-grey-scale.svg" />
+    <None Include="images\PRINT-printer-setup.svg" />
+    <None Include="images\PRINT-zoom-page-in.svg" />
+    <None Include="images\PRINT-zoom-page-out.svg" />
+    <None Include="images\PROPERTIES-clone-properties.svg" />
+    <None Include="images\PROPERTIES-colours.svg" />
+    <None Include="images\PROPERTIES-entities.svg" />
+    <None Include="images\PROPERTIES-layers.svg" />
+    <None Include="images\PROPERTIES-properties.svg" />
+    <None Include="images\PROPERTIES-style-sets.svg" />
+    <None Include="images\PROPERTIES-styles.svg" />
+    <None Include="images\PROPERTIES-weights.svg" />
+    <None Include="images\QUICK-chain-selection.svg" />
+    <None Include="images\QUICK-delete.svg" />
+    <None Include="images\QUICK-favourites.svg" />
+    <None Include="images\QUICK-grid-2.svg" />
+    <None Include="images\QUICK-grid.svg" />
+    <None Include="images\QUICK-measure.svg" />
+    <None Include="images\QUICK-poly-fence-selection.svg" />
+    <None Include="images\QUICK-previous-selection-set.svg" />
+    <None Include="images\QUICK-redo.svg" />
+    <None Include="images\QUICK-regenerate-windows.svg" />
+    <None Include="images\QUICK-scheme.svg" />
+    <None Include="images\QUICK-snap-and-drag.svg" />
+    <None Include="images\QUICK-undo.svg" />
+    <None Include="images\RENDERING-lights.svg" />
+    <None Include="images\RENDERING-materials.svg" />
+    <None Include="images\RENDERING-render.svg" />
+    <None Include="images\RENDERING-sunlight.svg" />
+    <QtRcc Include="RealCAD.qrc">
+    </QtRcc>
+    <None Include="images\STANDARDVIEWS-std-back.svg" />
+    <None Include="images\STANDARDVIEWS-std-front.svg" />
+    <None Include="images\STANDARDVIEWS-std-iso.svg" />
+    <None Include="images\STANDARDVIEWS-std-left.svg" />
+    <None Include="images\STANDARDVIEWS-std-parallel.svg" />
+    <None Include="images\STANDARDVIEWS-std-perspective.svg" />
+    <None Include="images\STANDARDVIEWS-std-right.svg" />
+    <None Include="images\STANDARDVIEWS-std-top.svg" />
+    <None Include="images\STANDARDVIEWS-top-perspective.svg" />
+    <None Include="images\SURFACE-cylinder.svg" />
+    <None Include="images\SURFACE-elbow.svg" />
+    <None Include="images\SURFACE-flat-pattern.svg" />
+    <None Include="images\SURFACE-move-patch-points.svg" />
+    <None Include="images\SURFACE-patch-by-corners.svg" />
+    <None Include="images\SURFACE-patch-by-mesh.svg" />
+    <None Include="images\SURFACE-patch-path.svg" />
+    <None Include="images\SURFACE-revolved-surface.svg" />
+    <None Include="images\SURFACE-ruled-surface.svg" />
+    <None Include="images\SURFACE-spiral.svg" />
+    <None Include="images\SURFACES-CURVED.svg" />
+    <None Include="images\TEXT-find-and-replace.svg" />
+    <None Include="images\TEXT-incremental-text.svg" />
+    <None Include="images\TEXT-text-along.svg" />
+    <None Include="images\TEXT-text-by-origin.svg" />
+    <None Include="images\TEXT-text-by-rotation.svg" />
+    <None Include="images\TEXT-text-edit.svg" />
+    <None Include="images\TRANSFORM-align.svg" />
+    <None Include="images\TRANSFORM-array.svg" />
+    <None Include="images\TRANSFORM-centralise.svg" />
+    <None Include="images\TRANSFORM-copy-along.svg" />
+    <None Include="images\TRANSFORM-copy.svg" />
+    <None Include="images\TRANSFORM-mirror.svg" />
+    <None Include="images\TRANSFORM-move.svg" />
+    <None Include="images\TRANSFORM-offset-equal-distance.svg" />
+    <None Include="images\TRANSFORM-offset.svg" />
+    <None Include="images\TRANSFORM-project-extrude.svg" />
+    <None Include="images\TRANSFORM-rotate.svg" />
+    <None Include="images\TRANSFORM-scale.svg" />
+    <None Include="images\TRANSFORM-stretch.svg" />
+    <None Include="images\TranspBack1-off.png" />
+    <None Include="images\TranspBack1.png" />
+    <None Include="images\TranspBack2-off.png" />
+    <None Include="images\TranspBack2.png" />
+    <None Include="images\TranspBack3-off.png" />
+    <None Include="images\TranspBack3.png" />
+    <None Include="images\TranspBackL.png" />
+    <None Include="images\TranspBackS.bmp" />
+    <None Include="images\TranspBackS.png" />
+    <None Include="images\UnLinkIcon.png" />
+    <None Include="images\VIEWSTYLE-dashed-hidden-line.svg" />
+    <None Include="images\VIEWSTYLE-hidden-line.svg" />
+    <None Include="images\VIEWSTYLE-shaded-dashed-lines.svg" />
+    <None Include="images\VIEWSTYLE-shaded-surface.svg" />
+    <None Include="images\VIEWSTYLE-shaded-with-lines.svg" />
+    <None Include="images\VIEWSTYLE-shadows.svg" />
+    <None Include="images\VIEWSTYLE-texture-shaded.svg" />
+    <None Include="images\VIEWSTYLE-textured-with-lines.svg" />
+    <None Include="images\VIEWSTYLE-view-as-parallel.svg" />
+    <None Include="images\VIEWSTYLE-view-as-perspective.svg" />
+    <None Include="images\VIEWSTYLE-virtual-reality-3d.svg" />
+    <None Include="images\VIEWSTYLE-wireframe.svg" />
+    <None Include="images\WINDOW-align-view-to-workplane.svg" />
+    <None Include="images\WINDOW-cascade-views.svg" />
+    <None Include="images\WINDOW-delete-view.svg" />
+    <None Include="images\WINDOW-new-view.svg" />
+    <None Include="images\WINDOW-preview-view-state.svg" />
+    <None Include="images\WINDOW-print-scale.svg" />
+    <None Include="images\WINDOW-reset-view.svg" />
+    <None Include="images\WINDOW-rotate-view.svg" />
+    <None Include="images\WINDOW-select-view.svg" />
+    <None Include="images\WINDOW-tile-views.svg" />
+    <None Include="images\WORKPLANE-delete-workplane.svg" />
+    <None Include="images\WORKPLANE-move-workplane.svg" />
+    <None Include="images\WORKPLANE-new-workplane.svg" />
+    <None Include="images\WORKPLANE-orient-workplane-axis.svg" />
+    <None Include="images\WORKPLANE-reset-workplane.svg" />
+    <None Include="images\WORKPLANE-select-workplane.svg" />
+    <None Include="images\WORKPLANE-set-workplane-on-entity.svg" />
+    <None Include="images\ZOOM-new-zone.svg" />
+    <None Include="images\ZOOM-pan-scroll.svg" />
+    <None Include="images\ZOOM-zone-delete.svg" />
+    <None Include="images\ZOOM-zoom-fit.svg" />
+    <None Include="images\ZOOM-zoom-previous.svg" />
+    <None Include="images\ZOOM-zoom-scale.svg" />
+    <None Include="images\ZOOM-zoom-to-zone.svg" />
+    <None Include="images\ZOOM-zoom-window.svg" />
+    <None Include="images\align-to-workplane.svg" />
+    <None Include="images\animation-camera-path.svg" />
+    <None Include="images\animation-menu.svg" />
+    <None Include="images\animation-object-path.svg" />
+    <None Include="images\animation-patch-path.svg" />
+    <None Include="images\animation-record-animation.svg" />
+    <None Include="images\animation-reference-path.svg" />
+    <None Include="images\animation-replay-animation.svg" />
+    <None Include="images\architectural-perspective.svg" />
+    <None Include="images\arrange.svg" />
+    <None Include="images\bmp00062.bmp" />
+    <None Include="images\bmp00063.bmp" />
+    <None Include="images\bmp00098.bmp" />
+    <None Include="images\bmp00099.bmp" />
+    <None Include="images\bmp00100.bmp" />
+    <None Include="images\bmp00101.bmp" />
+    <None Include="images\bmp00102.png" />
+    <None Include="images\bmp00115.bmp" />
+    <None Include="images\bmp00145.bmp" />
+    <None Include="images\bmp00146.bmp" />
+    <None Include="images\bmp00147.bmp" />
+    <None Include="images\bmp00148.bmp" />
+    <None Include="images\bmp00149.bmp" />
+    <None Include="images\bmp00150.bmp" />
+    <None Include="images\bmp00159.bmp" />
+    <None Include="images\bmp00166.bmp" />
+    <None Include="images\bmp00167.bmp" />
+    <None Include="images\bmp00168.bmp" />
+    <None Include="images\bmp00169.bmp" />
+    <None Include="images\bmp00172.bmp" />
+    <None Include="images\bmp00173.bmp" />
+    <None Include="images\bmp00174.bmp" />
+    <None Include="images\bmp00175.bmp" />
+    <None Include="images\bmp00176.bmp" />
+    <None Include="images\bmp00177.bmp" />
+    <None Include="images\bmp00178.bmp" />
+    <None Include="images\boxchecked.png" />
+    <None Include="images\boxunchecked.png" />
+    <None Include="images\ca_arc0_.bmp" />
+    <None Include="images\ca_circl.bmp" />
+    <None Include="images\ca_clone.png" />
+    <None Include="images\ca_colou.png" />
+    <None Include="images\ca_compo.bmp" />
+    <None Include="images\ca_curve.bmp" />
+    <None Include="images\ca_delet.bmp" />
+    <None Include="images\ca_dimen.bmp" />
+    <None Include="images\ca_displ.bmp" />
+    <None Include="images\ca_dynam.bmp" />
+    <None Include="images\ca_figur.bmp" />
+    <None Include="images\ca_layer.png" />
+    <None Include="images\ca_line0.bmp" />
+    <None Include="images\ca_line1.bmp" />
+    <None Include="images\ca_line2.bmp" />
+    <None Include="images\ca_line3.bmp" />
+    <None Include="images\ca_line4.bmp" />
+    <None Include="images\ca_line5.bmp" />
+    <None Include="images\ca_line6.bmp" />
+    <None Include="images\ca_line7.bmp" />
+    <None Include="images\ca_line8.bmp" />
+    <None Include="images\ca_measu.bmp" />
+    <None Include="images\ca_paint.bmp" />
+    <None Include="images\ca_point.bmp" />
+    <None Include="images\ca_posit.bmp" />
+    <None Include="images\ca_redo_.bmp" />
+    <None Include="images\ca_rende.bmp" />
+    <None Include="images\ca_selec.bmp" />
+    <None Include="images\ca_style.png" />
+    <None Include="images\ca_surfa.bmp" />
+    <None Include="images\ca_text0.bmp" />
+    <None Include="images\ca_trim0.bmp" />
+    <None Include="images\ca_undo_.bmp" />
+    <None Include="images\ca_viewm.bmp" />
+    <None Include="images\ca_weigh.png" />
+    <None Include="images\ca_workp.bmp" />
+    <None Include="images\ca_zoom0.bmp" />
+    <None Include="images\ca_zoom1.bmp" />
+    <None Include="images\ca_zoom2.bmp" />
+    <None Include="images\ca_zoom3.bmp" />
+    <None Include="images\ca_zoom4.bmp" />
+    <None Include="images\ca_zoom5.bmp" />
+    <None Include="images\ca_zoom6.bmp" />
+    <None Include="images\ca_zoom7.bmp" />
+    <None Include="images\ca_zoom8.bmp" />
+    <None Include="images\ca_zoom9.bmp" />
+    <None Include="images\capture.svg" />
+    <None Include="images\centre.svg" />
+    <None Include="images\chain-selection.svg" />
+    <None Include="images\change-to-parallel.svg" />
+    <None Include="images\change-to-perspective.svg" />
+    <None Include="images\change-viewport.svg" />
+    <None Include="images\closedeye.png" />
+    <None Include="images\closedock-16.png" />
+    <None Include="images\closedock-down-16.png" />
+    <None Include="images\closeview-12.png" />
+    <None Include="images\closeview-16.png" />
+    <None Include="images\closeview-24.png" />
+    <None Include="images\closeview-down-16.png" />
+    <None Include="images\complex-surfaces.svg" />
+    <None Include="images\copy-plane-boundary.svg" />
+    <None Include="images\copy.png" />
+    <None Include="images\copyx2.bat" />
+    <None Include="images\copyx3.bat" />
+    <None Include="images\crosshair_cur.bmp" />
+    <None Include="images\crosshair_cur@2x.bmp" />
+    <None Include="images\crosshair_cur@3x.bmp" />
+    <None Include="images\crosshair_cur_@1x.bmp" />
+    <None Include="images\crosshair_cur_large.bmp" />
+    <None Include="images\crosshair_cur_medium.bmp" />
+    <None Include="images\crosshair_msk.bmp" />
+    <None Include="images\crosshair_msk@2x.bmp" />
+    <None Include="images\crosshair_msk@3x.bmp" />
+    <None Include="images\crosshair_msk_@1x.bmp" />
+    <None Include="images\crosshair_msk_large.bmp" />
+    <None Include="images\crosshair_msk_medium.bmp" />
+    <None Include="images\crosshair_rev_cur.bmp" />
+    <None Include="images\crosshair_rev_cur@2x.bmp" />
+    <None Include="images\crosshair_rev_cur@3x.bmp" />
+    <None Include="images\crosshair_rev_cur_large.bmp" />
+    <None Include="images\crosshair_rev_cur_medium.bmp" />
+    <None Include="images\crosshair_rev_msk.bmp" />
+    <None Include="images\crosshair_rev_msk@2x.bmp" />
+    <None Include="images\crosshair_rev_msk@3x.bmp" />
+    <None Include="images\crosshair_rev_msk_large.bmp" />
+    <None Include="images\crosshair_rev_msk_medium.bmp" />
+    <None Include="images\cur00001_cur.bmp" />
+    <None Include="images\cur00001_cur@2x.bmp" />
+    <None Include="images\cur00001_cur@3x.bmp" />
+    <None Include="images\cur00001_cur_large.bmp" />
+    <None Include="images\cur00001_cur_medium.bmp" />
+    <None Include="images\cur00001_msk.bmp" />
+    <None Include="images\cur00001_msk@2x.bmp" />
+    <None Include="images\cur00001_msk@3x.bmp" />
+    <None Include="images\cur00001_msk_large.bmp" />
+    <None Include="images\cur00001_msk_medium.bmp" />
+    <None Include="images\cur00001_rev_cur.bmp" />
+    <None Include="images\cur00001_rev_cur@2x.bmp" />
+    <None Include="images\cur00001_rev_cur@3x.bmp" />
+    <None Include="images\cur00001_rev_cur_large.bmp" />
+    <None Include="images\cur00001_rev_cur_medium.bmp" />
+    <None Include="images\cur00001_rev_msk.bmp" />
+    <None Include="images\cur00001_rev_msk@2x.bmp" />
+    <None Include="images\cur00001_rev_msk@3x.bmp" />
+    <None Include="images\cur00001_rev_msk_large.bmp" />
+    <None Include="images\cur00001_rev_msk_medium.bmp" />
+    <None Include="images\cur00002_cur.bmp" />
+    <None Include="images\cur00002_cur@2x.bmp" />
+    <None Include="images\cur00002_cur@3x.bmp" />
+    <None Include="images\cur00002_cur_large.bmp" />
+    <None Include="images\cur00002_cur_medium.bmp" />
+    <None Include="images\cur00002_msk.bmp" />
+    <None Include="images\cur00002_msk@2x.bmp" />
+    <None Include="images\cur00002_msk@3x.bmp" />
+    <None Include="images\cur00002_msk_large.bmp" />
+    <None Include="images\cur00002_msk_medium.bmp" />
+    <None Include="images\cur00002_rev_cur.bmp" />
+    <None Include="images\cur00002_rev_cur@2x.bmp" />
+    <None Include="images\cur00002_rev_cur@3x.bmp" />
+    <None Include="images\cur00002_rev_cur_large.bmp" />
+    <None Include="images\cur00002_rev_cur_medium.bmp" />
+    <None Include="images\cur00002_rev_msk.bmp" />
+    <None Include="images\cur00002_rev_msk@2x.bmp" />
+    <None Include="images\cur00002_rev_msk@3x.bmp" />
+    <None Include="images\cur00002_rev_msk_large.bmp" />
+    <None Include="images\cur00002_rev_msk_medium.bmp" />
+    <None Include="images\cur00003_cur.bmp" />
+    <None Include="images\cur00003_cur@2x.bmp" />
+    <None Include="images\cur00003_cur@3x.bmp" />
+    <None Include="images\cur00003_cur_large.bmp" />
+    <None Include="images\cur00003_cur_medium.bmp" />
+    <None Include="images\cur00003_msk.bmp" />
+    <None Include="images\cur00003_msk@2x.bmp" />
+    <None Include="images\cur00003_msk@3x.bmp" />
+    <None Include="images\cur00003_msk_large.bmp" />
+    <None Include="images\cur00003_msk_medium.bmp" />
+    <None Include="images\cur00003_rev_cur.bmp" />
+    <None Include="images\cur00003_rev_cur@2x.bmp" />
+    <None Include="images\cur00003_rev_cur@3x.bmp" />
+    <None Include="images\cur00003_rev_cur_large.bmp" />
+    <None Include="images\cur00003_rev_cur_medium.bmp" />
+    <None Include="images\cur00003_rev_msk.bmp" />
+    <None Include="images\cur00003_rev_msk@2x.bmp" />
+    <None Include="images\cur00003_rev_msk@3x.bmp" />
+    <None Include="images\cur00003_rev_msk_large.bmp" />
+    <None Include="images\cur00003_rev_msk_medium.bmp" />
+    <None Include="images\cur00004_cur.bmp" />
+    <None Include="images\cur00004_cur@2x.bmp" />
+    <None Include="images\cur00004_cur@3x.bmp" />
+    <None Include="images\cur00004_cur_@1x.bmp" />
+    <None Include="images\cur00004_cur_large.bmp" />
+    <None Include="images\cur00004_cur_medium.bmp" />
+    <None Include="images\cur00004_msk.bmp" />
+    <None Include="images\cur00004_msk@2x.bmp" />
+    <None Include="images\cur00004_msk@3x.bmp" />
+    <None Include="images\cur00004_msk_@1x.bmp" />
+    <None Include="images\cur00004_msk_large.bmp" />
+    <None Include="images\cur00004_msk_medium.bmp" />
+    <None Include="images\cur00004_rev_cur.bmp" />
+    <None Include="images\cur00004_rev_cur@2x.bmp" />
+    <None Include="images\cur00004_rev_cur@3x.bmp" />
+    <None Include="images\cur00004_rev_cur_large.bmp" />
+    <None Include="images\cur00004_rev_cur_medium.bmp" />
+    <None Include="images\cur00004_rev_msk.bmp" />
+    <None Include="images\cur00004_rev_msk@2x.bmp" />
+    <None Include="images\cur00004_rev_msk@3x.bmp" />
+    <None Include="images\cur00004_rev_msk_large.bmp" />
+    <None Include="images\cur00004_rev_msk_medium.bmp" />
+    <None Include="images\cur00005_cur.bmp" />
+    <None Include="images\cur00005_cur@2x.bmp" />
+    <None Include="images\cur00005_cur@3x.bmp" />
+    <None Include="images\cur00005_cur_large.bmp" />
+    <None Include="images\cur00005_cur_medium.bmp" />
+    <None Include="images\cur00005_msk.bmp" />
+    <None Include="images\cur00005_msk@2x.bmp" />
+    <None Include="images\cur00005_msk@3x.bmp" />
+    <None Include="images\cur00005_msk_large.bmp" />
+    <None Include="images\cur00005_msk_medium.bmp" />
+    <None Include="images\cur00005_rev_cur.bmp" />
+    <None Include="images\cur00005_rev_cur@2x.bmp" />
+    <None Include="images\cur00005_rev_cur@3x.bmp" />
+    <None Include="images\cur00005_rev_cur_large.bmp" />
+    <None Include="images\cur00005_rev_cur_medium.bmp" />
+    <None Include="images\cur00005_rev_msk.bmp" />
+    <None Include="images\cur00005_rev_msk@2x.bmp" />
+    <None Include="images\cur00005_rev_msk@3x.bmp" />
+    <None Include="images\cur00005_rev_msk_large.bmp" />
+    <None Include="images\cur00005_rev_msk_medium.bmp" />
+    <None Include="images\cur00006_cur.bmp" />
+    <None Include="images\cur00006_cur@2x.bmp" />
+    <None Include="images\cur00006_cur@3x.bmp" />
+    <None Include="images\cur00006_cur_large.bmp" />
+    <None Include="images\cur00006_cur_medium.bmp" />
+    <None Include="images\cur00006_msk.bmp" />
+    <None Include="images\cur00006_msk@2x.bmp" />
+    <None Include="images\cur00006_msk@3x.bmp" />
+    <None Include="images\cur00006_msk_large.bmp" />
+    <None Include="images\cur00006_msk_medium.bmp" />
+    <None Include="images\cur00006_rev_cur.bmp" />
+    <None Include="images\cur00006_rev_cur@2x.bmp" />
+    <None Include="images\cur00006_rev_cur@3x.bmp" />
+    <None Include="images\cur00006_rev_cur_large.bmp" />
+    <None Include="images\cur00006_rev_cur_medium.bmp" />
+    <None Include="images\cur00006_rev_msk.bmp" />
+    <None Include="images\cur00006_rev_msk@2x.bmp" />
+    <None Include="images\cur00006_rev_msk@3x.bmp" />
+    <None Include="images\cur00006_rev_msk_large.bmp" />
+    <None Include="images\cur00006_rev_msk_medium.bmp" />
+    <None Include="images\cur00007_cur.bmp" />
+    <None Include="images\cur00007_cur@2x.bmp" />
+    <None Include="images\cur00007_cur@3x.bmp" />
+    <None Include="images\cur00007_cur_large.bmp" />
+    <None Include="images\cur00007_cur_medium.bmp" />
+    <None Include="images\cur00007_msk.bmp" />
+    <None Include="images\cur00007_msk@2x.bmp" />
+    <None Include="images\cur00007_msk@3x.bmp" />
+    <None Include="images\cur00007_msk_large.bmp" />
+    <None Include="images\cur00007_msk_medium.bmp" />
+    <None Include="images\cur00007_rev_cur.bmp" />
+    <None Include="images\cur00007_rev_cur@2x.bmp" />
+    <None Include="images\cur00007_rev_cur@3x.bmp" />
+    <None Include="images\cur00007_rev_cur_large.bmp" />
+    <None Include="images\cur00007_rev_cur_medium.bmp" />
+    <None Include="images\cur00007_rev_msk.bmp" />
+    <None Include="images\cur00007_rev_msk@2x.bmp" />
+    <None Include="images\cur00007_rev_msk@3x.bmp" />
+    <None Include="images\cur00007_rev_msk_large.bmp" />
+    <None Include="images\cur00007_rev_msk_medium.bmp" />
+    <None Include="images\cur00008_cur.bmp" />
+    <None Include="images\cur00008_cur@2x.bmp" />
+    <None Include="images\cur00008_cur@3x.bmp" />
+    <None Include="images\cur00008_cur_large.bmp" />
+    <None Include="images\cur00008_cur_medium.bmp" />
+    <None Include="images\cur00008_msk.bmp" />
+    <None Include="images\cur00008_msk@2x.bmp" />
+    <None Include="images\cur00008_msk@3x.bmp" />
+    <None Include="images\cur00008_msk_large.bmp" />
+    <None Include="images\cur00008_msk_medium.bmp" />
+    <None Include="images\cur00008_rev_cur.bmp" />
+    <None Include="images\cur00008_rev_cur@2x.bmp" />
+    <None Include="images\cur00008_rev_cur@3x.bmp" />
+    <None Include="images\cur00008_rev_cur_large.bmp" />
+    <None Include="images\cur00008_rev_cur_medium.bmp" />
+    <None Include="images\cur00008_rev_msk.bmp" />
+    <None Include="images\cur00008_rev_msk@2x.bmp" />
+    <None Include="images\cur00008_rev_msk@3x.bmp" />
+    <None Include="images\cur00008_rev_msk_medium.bmp" />
+    <None Include="images\cut.png" />
+    <None Include="images\dashed-hidden-line.svg" />
+    <None Include="images\detach-entities.svg" />
+    <None Include="images\detachentity.bmp" />
+    <None Include="images\detachplane.bmp" />
+    <None Include="images\dockdock-16.png" />
+    <None Include="images\dockdock-down-16.png" />
+    <None Include="images\dynamic-view.svg" />
+    <None Include="images\edit.svg" />
+    <None Include="images\empty_cur.bmp" />
+    <None Include="images\empty_cur@2x.bmp" />
+    <None Include="images\empty_cur@3x.bmp" />
+    <None Include="images\empty_cur_large.bmp" />
+    <None Include="images\empty_cur_medium.bmp" />
+    <None Include="images\empty_msk.bmp" />
+    <None Include="images\empty_msk@2x.bmp" />
+    <None Include="images\empty_msk@3x.bmp" />
+    <None Include="images\empty_msk_large.bmp" />
+    <None Include="images\empty_msk_medium.bmp" />
+    <None Include="images\empty_rev_cur.bmp" />
+    <None Include="images\empty_rev_cur@2x.bmp" />
+    <None Include="images\empty_rev_cur@3x.bmp" />
+    <None Include="images\empty_rev_cur_large.bmp" />
+    <None Include="images\empty_rev_cur_medium.bmp" />
+    <None Include="images\empty_rev_msk.bmp" />
+    <None Include="images\empty_rev_msk@2x.bmp" />
+    <None Include="images\empty_rev_msk@3x.bmp" />
+    <None Include="images\empty_rev_msk_large.bmp" />
+    <None Include="images\empty_rev_msk_medium.bmp" />
+    <None Include="images\erase_cur.bmp" />
+    <None Include="images\erase_cur@2x.bmp" />
+    <None Include="images\erase_cur@3x.bmp" />
+    <None Include="images\erase_cur_large.bmp" />
+    <None Include="images\erase_cur_medium.bmp" />
+    <None Include="images\erase_msk.bmp" />
+    <None Include="images\erase_msk@2x.bmp" />
+    <None Include="images\erase_msk@3x.bmp" />
+    <None Include="images\erase_msk_large.bmp" />
+    <None Include="images\erase_msk_medium.bmp" />
+    <None Include="images\erase_rev_cur.bmp" />
+    <None Include="images\erase_rev_cur@2x.bmp" />
+    <None Include="images\erase_rev_cur@3x.bmp" />
+    <None Include="images\erase_rev_cur_large.bmp" />
+    <None Include="images\erase_rev_cur_medium.bmp" />
+    <None Include="images\erase_rev_msk.bmp" />
+    <None Include="images\erase_rev_msk@2x.bmp" />
+    <None Include="images\erase_rev_msk@3x.bmp" />
+    <None Include="images\erase_rev_msk_large.bmp" />
+    <None Include="images\erase_rev_msk_medium.bmp" />
+    <None Include="images\favourites.svg" />
+    <None Include="images\file.svg" />
+    <None Include="images\fit-page.svg" />
+    <None Include="images\fit-width.svg" />
+    <None Include="images\gl-shaded-with-lines.svg" />
+    <None Include="images\gl-shaded.svg" />
+    <None Include="images\group.svg" />
+    <None Include="images\hidden-line.svg" />
+    <None Include="images\ico1002.png" />
+    <None Include="images\ico20001.png" />
+    <None Include="images\landscape.svg" />
+    <None Include="images\layout.svg" />
+    <None Include="images\leftclick_cur.bmp" />
+    <None Include="images\leftclick_msk.bmp" />
+    <None Include="images\leftclick_rev_cur.bmp" />
+    <None Include="images\leftclick_rev_msk.bmp" />
+    <None Include="images\lengthen-focal-distance.svg" />
+    <None Include="images\lines.svg" />
+    <None Include="images\look-down.svg" />
+    <None Include="images\look-left.svg" />
+    <None Include="images\look-right.svg" />
+    <None Include="images\look-up.svg" />
+    <None Include="images\magic-eraser.svg" />
+    <None Include="images\make-parallel.svg" />
+    <None Include="images\maximize-12.png" />
+    <None Include="images\maximize-16.png" />
+    <None Include="images\maximize-24.png" />
+    <None Include="images\maximize-down-16.png" />
+    <None Include="images\measure.svg" />
+    <None Include="images\new-component.svg" />
+    <None Include="images\new-from-template.svg" />
+    <None Include="images\new.png" />
+    <None Include="images\new.svg" />
+    <None Include="images\open-import.svg" />
+    <None Include="images\open.png" />
+    <None Include="images\openeye.png" />
+    <None Include="images\openeye_dissabled.png" />
+    <None Include="images\paste.png" />
+    <None Include="images\plane-by-interior-icon.svg" />
+    <None Include="images\plane-by-segment-icon.svg" />
+    <None Include="images\planes.svg" />
+    <None Include="images\points.svg" />
+    <None Include="images\portrait.svg" />
+    <None Include="images\position_cur.bmp" />
+    <None Include="images\position_cur@2x.bmp" />
+    <None Include="images\position_cur@3x.bmp" />
+    <None Include="images\position_cur_large.bmp" />
+    <None Include="images\position_cur_medium.bmp" />
+    <None Include="images\position_msk.bmp" />
+    <None Include="images\position_msk@2x.bmp" />
+    <None Include="images\position_msk@3x.bmp" />
+    <None Include="images\position_msk_large.bmp" />
+    <None Include="images\position_msk_medium.bmp" />
+    <None Include="images\position_rev_cur.bmp" />
+    <None Include="images\position_rev_cur@2x.bmp" />
+    <None Include="images\position_rev_cur@3x.bmp" />
+    <None Include="images\position_rev_cur_large.bmp" />
+    <None Include="images\position_rev_cur_medium.bmp" />
+    <None Include="images\position_rev_msk.bmp" />
+    <None Include="images\position_rev_msk@2x.bmp" />
+    <None Include="images\position_rev_msk@3x.bmp" />
+    <None Include="images\position_rev_msk_large.bmp" />
+    <None Include="images\position_rev_msk_medium.bmp" />
+    <None Include="images\print-BW.svg" />
+    <None Include="images\print-colour.svg" />
+    <None Include="images\print-grey-scale.svg" />
+    <None Include="images\print-preview-selection.svg" />
+    <None Include="images\print-preview-window.svg" />
+    <None Include="images\print.svg" />
+    <None Include="images\printer-setup.svg" />
+    <None Include="images\rendering.svg" />
+    <None Include="images\reselect-previous.svg" />
+    <None Include="images\rightclick_cur.bmp" />
+    <None Include="images\rightclick_msk.bmp" />
+    <None Include="images\save-as.svg" />
+    <None Include="images\save.png" />
+    <None Include="images\save.svg" />
+    <None Include="images\selectability-chain-selection.svg" />
+    <None Include="images\selectability-colour-selection.svg" />
+    <None Include="images\selectability-commands.svg" />
+    <None Include="images\selectability-entity-selection.svg" />
+    <None Include="images\selectability-fence-selection.svg" />
+    <None Include="images\selectability-layer-selection.svg" />
+    <None Include="images\selectability-style-selection.svg" />
+    <None Include="images\selectability-weight-selection.svg" />
+    <None Include="images\selectability.svg" />
+    <None Include="images\set-all-points.svg" />
+    <None Include="images\set-clip-planes.svg" />
+    <None Include="images\set-eye-point.svg" />
+    <None Include="images\set-focal-distance.svg" />
+    <None Include="images\set-reference-point.svg" />
+    <None Include="images\settings-defaults.svg" />
+    <None Include="images\shade.svg" />
+    <None Include="images\shaded-with-dashed-lines.svg" />
+    <None Include="images\shaded-with-lines.svg" />
+    <None Include="images\shaded.svg" />
+    <None Include="images\shorten-focal-distance.svg" />
+    <None Include="images\show-full-screen.svg" />
+    <None Include="images\sketchup-warehouse.svg" />
+    <None Include="images\snap-options.svg" />
+    <None Include="images\solids.svg" />
+    <None Include="images\standard-views.svg" />
+    <None Include="images\step-backward.svg" />
+    <None Include="images\step-down.svg" />
+    <None Include="images\step-forward.svg" />
+    <None Include="images\step-left.svg" />
+    <None Include="images\step-right.svg" />
+    <None Include="images\step-up.svg" />
+    <None Include="images\text-label-callout.svg" />
+    <None Include="images\text.svg" />
+    <None Include="images\tileviews-12.png" />
+    <None Include="images\tileviews-16.png" />
+    <None Include="images\tileviews-24.png" />
+    <None Include="images\tileviews-down-16.png" />
+    <None Include="images\tools-back-one.svg" />
+    <None Include="images\tools-forward-one.svg" />
+    <None Include="images\tools-to-back.svg" />
+    <None Include="images\tools-to-front.svg" />
+    <None Include="images\tools.svg" />
+    <None Include="images\transform.svg" />
+    <None Include="images\view-continuous-orbit.svg" />
+    <None Include="images\view-continuous-rotation.svg" />
+    <None Include="images\view-previous.svg" />
+    <None Include="images\view-regenerate-view.svg" />
+    <None Include="images\view-tile-views.svg" />
+    <None Include="images\view-window.svg" />
+    <None Include="images\viewstyle.svg" />
+    <None Include="images\visibility-colour-display.svg" />
+    <None Include="images\visibility-entity-display.svg" />
+    <None Include="images\visibility-layer-display.svg" />
+    <None Include="images\visibility-style-display.svg" />
+    <None Include="images\visibility.svg" />
+    <None Include="images\visilibity-weight-display.svg" />
+    <None Include="images\white-to-black-icon.svg" />
+    <None Include="images\whiteout.svg" />
+    <None Include="images\wireframe.svg" />
+    <None Include="images\workplane.svg" />
+    <None Include="images\zoom.svg" />
+    <None Include="images\zoom_cur.bmp" />
+    <None Include="images\zoom_cur@2x.bmp" />
+    <None Include="images\zoom_cur@3x.bmp" />
+    <None Include="images\zoom_cur_@1x.bmp" />
+    <None Include="images\zoom_cur_large.bmp" />
+    <None Include="images\zoom_cur_medium.bmp" />
+    <None Include="images\zoom_msk.bmp" />
+    <None Include="images\zoom_msk@2x.bmp" />
+    <None Include="images\zoom_msk@3x.bmp" />
+    <None Include="images\zoom_msk_@1x.bmp" />
+    <None Include="images\zoom_msk_large.bmp" />
+    <None Include="images\zoom_msk_medium.bmp" />
+    <None Include="images\zoom_rev_cur.bmp" />
+    <None Include="images\zoom_rev_cur@2x.bmp" />
+    <None Include="images\zoom_rev_cur@3x.bmp" />
+    <None Include="images\zoom_rev_cur_large.bmp" />
+    <None Include="images\zoom_rev_cur_medium.bmp" />
+    <None Include="images\zoom_rev_msk.bmp" />
+    <None Include="images\zoom_rev_msk@2x.bmp" />
+    <None Include="images\zoom_rev_msk@3x.bmp" />
+    <None Include="images\zoom_rev_msk_large.bmp" />
+    <None Include="images\zoom_rev_msk_medium.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RealCAD.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
