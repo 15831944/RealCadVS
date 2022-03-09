@@ -705,7 +705,7 @@ public:
 
         retranslateUi(MaskChange_Dialog);
 
-        _100->setCurrentIndex(4);
+        _100->setCurrentIndex(2);
         _1->setDefault(true);
 
 

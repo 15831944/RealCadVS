@@ -5163,7 +5163,7 @@ int Database::loadColourTable(RCCHAR *inifilename)
           GetPrivateProfileString(_RCT("ColourPalette"),key,_RCT("0"),data,600,inifilename);
           if (strlen(data) > 0)
           {
-              if(atoi(data) > 0)
+              if(atoi(data) >= 0)
               {
                  RCCOLORREF cref = (RCCOLORREF)atoi(data);
                  colourtable[i].red   = GetRValue(cref);
