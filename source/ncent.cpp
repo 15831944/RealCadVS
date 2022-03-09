@@ -5163,6 +5163,7 @@ int Database::loadColourTable(RCCHAR *inifilename)
           GetPrivateProfileString(_RCT("ColourPalette"),key,_RCT("0"),data,600,inifilename);
           if (strlen(data) > 0)
           {
+			  //black color value is zero and some styelset values can be zero
               if(atoi(data) >= 0)
               {
                  RCCOLORREF cref = (RCCOLORREF)atoi(data);
